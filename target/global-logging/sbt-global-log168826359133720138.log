@@ -1,0 +1,48 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly myproject.gates.ORGatesTests -- -DwriteVcd=1, Some(96660057-c0e1-4ecb-925f-4f3be4b64c68), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/syedowais/ChipSimX/src/main/scala/ORGates.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/syedowais/ChipSimX/src/main/scala/ORGates.scala:5:23: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass ORGates extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/syedowais/ChipSimX/src/main/scala/ORGates.scala:6:12: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m  val io = IO(new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/syedowais/ChipSimX/src/main/scala/ORGates.scala:6:19: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m  val io = IO(new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/syedowais/ChipSimX/src/main/scala/ORGates.scala:7:13: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val a = Input(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/syedowais/ChipSimX/src/main/scala/ORGates.scala:7:19: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val a = Input(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/syedowais/ChipSimX/src/main/scala/ORGates.scala:7:26: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val a = Input(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/syedowais/ChipSimX/src/main/scala/ORGates.scala:8:13: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val b = Input(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/syedowais/ChipSimX/src/main/scala/ORGates.scala:8:19: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val b = Input(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/syedowais/ChipSimX/src/main/scala/ORGates.scala:8:26: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val b = Input(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/syedowais/ChipSimX/src/main/scala/ORGates.scala:9:14: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m    val OR = Output(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/syedowais/ChipSimX/src/main/scala/ORGates.scala:9:21: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val OR = Output(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/syedowais/ChipSimX/src/main/scala/ORGates.scala:9:28: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val OR = Output(UInt(2.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m13 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Nov 5, 2024, 12:22:05 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

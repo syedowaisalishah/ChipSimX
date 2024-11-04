@@ -1,0 +1,3 @@
+1730737587180:testOnly myproject.gates.ORGatesTests -- -DwriteVcd=1
+1730750843690:testOnly myproject.gates.  orgatestest -- -DwriteVcd=1
+1730750857027:testOnly myproject.gates.orgatestest -- -DwriteVcd=1
