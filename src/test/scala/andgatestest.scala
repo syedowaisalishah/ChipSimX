@@ -11,7 +11,7 @@ class andgatestest extends AnyFreeSpec with ChiselScalatestTester {
       c.io.b.poke(1.U)
 
       c.clock.step(1)
-      c.io.OR.expect(1.U)
+      c.io.and.expect(1.U)
     }
   }
 }

@@ -1,0 +1,14 @@
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(sbtMapExec 185 __7fb3417a-9467-4fcd-916b-149c186ba584, None, None)
+[debug] > Exec(bspBuildTargetJVMRunEnvironment file:/home/syedowais/ChipSimX/#root-build, Some(__7fb3417a-9467-4fcd-916b-149c186ba584), Some(CommandSource(network-2)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing buildTarget/jvmRunEnvironment"})
+[debug] Evaluating tasks: Compile / bspBuildTargetJVMRunEnvironment
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed Nov 26, 2024, 2:54:48 AM
+[debug] > Exec(sbtCompleteExec 185, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(sbtReportResult 185, Some(185), Some(CommandSource(network-2)))
+[debug] unmatched Processing event for requestId Some(185): None
+[debug] unmatched json response for requestId Some(185): {"status":"Done","channelName":"network-2","execId":"185","commandQueue":["shell"],"exitCode":0}
+[debug] > Exec(shell, None, None)

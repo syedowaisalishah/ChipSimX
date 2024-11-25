@@ -1,0 +1,48 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.4 (Eclipse Adoptium Java 17)
+[debug] Load.defaultLoad until apply took 1274.316484ms
+[debug]                 Load.loadUnit: plugins took 278.200302ms
+[debug]                 Load.loadUnit: defsScala took 0.32628ms
+[debug] [Loading] Scanning directory /home/syedowais/ChipSimX/project/project
+[debug]                   Load.loadUnit: mkEval took 7.707891ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/syedowais/ChipSimX/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 83.278577 ms
+[info] loading settings for project chipsimx-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(chipsimx-build-build) took 144.582932ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id chipsimx-build-build, base: /home/syedowais/ChipSimX/project/project, plugins: List(<none>))) took 374.589357ms
+[debug] [Loading] Done in /home/syedowais/ChipSimX/project/project, returning: (chipsimx-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 2138.508488ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 8.312137ms
+[debug]               Load.loadUnit(file:/home/syedowais/ChipSimX/project/project/, ...) took 2432.082985ms
+[debug]             Load.apply: load took 3204.793353ms
+[debug]             Load.apply: resolveProjects took 4.626318ms
+[debug]             Load.apply: finalTransforms took 336.160486ms
+[debug]             Load.apply: config.delegates took 5.531329ms
+[debug]             Load.apply: Def.make(settings)... took 2819.806774ms
+[debug]             Load.apply: structureIndex took 111.334243ms
+[debug]             Load.apply: mkStreams took 1.335545ms
+[info] loading project definition from /home/syedowais/ChipSimX/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

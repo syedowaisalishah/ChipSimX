@@ -6,8 +6,8 @@ class andgates extends Module {
   val io = IO(new Bundle {
     val a = Input(UInt(2.W))
     val b = Input(UInt(2.W))
-    val OR = Output(UInt(2.W))
+    val and = Output(UInt(2.W))
   })
 
-  io.OR := io.a  &  io.b
+  io.and := io.a  &  io.b
 }

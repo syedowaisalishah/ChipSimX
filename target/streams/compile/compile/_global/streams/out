@@ -1,40 +1,4 @@
-[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:3:8: not found: object chisel3
-[error] import chisel3._
-[error]        ^
-[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:5:24: illegal inheritance from final class Module
-[error] class andgates extends Module {
-[error]                        ^
-[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:6:12: not found: value IO
-[error]   val io = IO(new Bundle {
-[error]            ^
-[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:6:19: not found: type Bundle
-[error]   val io = IO(new Bundle {
-[error]                   ^
-[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:7:13: not found: value Input
-[error]     val a = Input(UInt(2.W))
-[error]             ^
-[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:7:19: not found: value UInt
-[error]     val a = Input(UInt(2.W))
-[error]                   ^
-[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:7:26: value W is not a member of Int
-[error]     val a = Input(UInt(2.W))
-[error]                          ^
-[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:8:13: not found: value Input
-[error]     val b = Input(UInt(2.W))
-[error]             ^
-[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:8:19: not found: value UInt
-[error]     val b = Input(UInt(2.W))
-[error]                   ^
-[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:8:26: value W is not a member of Int
-[error]     val b = Input(UInt(2.W))
-[error]                          ^
-[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:9:14: not found: value Output
-[error]     val OR = Output(UInt(2.W))
-[error]              ^
-[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:9:21: not found: value UInt
-[error]     val OR = Output(UInt(2.W))
-[error]                     ^
-[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:9:28: value W is not a member of Int
-[error]     val OR = Output(UInt(2.W))
-[error]                            ^
-[error] 13 errors found
+[error] /home/syedowais/ChipSimX/src/main/scala/xorgates.scala:12:6: value xOR is not a member of chisel3.Bundle{val a: chisel3.UInt; val b: chisel3.UInt; val OR: chisel3.UInt}
+[error]   io.xOR := io.a  ^  io.b
+[error]      ^
+[error] one error found

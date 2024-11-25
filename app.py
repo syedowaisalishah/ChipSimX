@@ -3,15 +3,14 @@ import subprocess
 import os
 import re
 import glob
+import shutil
 
 # Function to extract module and package names from Chisel code
 def extract_names(code):
-    # Regex patterns for class, object, and package
     class_regex = r'class\s+(\w+)'
     object_regex = r'object\s+(\w+)'
     package_regex = r'package\s+([\w.]+)'
 
-    # Search for class, object, and package names
     class_match = re.search(class_regex, code)
     object_match = re.search(object_regex, code)
     package_match = re.search(package_regex, code)
@@ -26,6 +25,21 @@ def delete_existing_files(directory):
     for file in glob.glob(f"{directory}/*.scala"):
         os.remove(file)
         print(f"Deleted {file}")
+
+# Function to remove the test_run_dir folder and its contents
+def remove_test_run_dir():
+    test_run_dir = "test_run_dir"
+    if os.path.exists(test_run_dir):
+        shutil.rmtree(test_run_dir)
+        print(f"Deleted {test_run_dir} folder and its contents.")
+
+# Function to locate the VCD file in test_run_dir
+def find_vcd_file(test_run_dir):
+    for root, dirs, files in os.walk(test_run_dir):
+        for file in files:
+            if file.endswith(".vcd"):
+                return os.path.join(root, file)
+    return None
 
 st.title("Chisel Code Compiler")
 
@@ -58,6 +72,9 @@ if st.button("Compile and Generate VCD"):
 
         st.success("Code submitted successfully!")
 
+        # Remove the test_run_dir folder
+        remove_test_run_dir()
+
         # Run sbt command to compile and generate VCD
         if main_package_name and test_module_name:
             sbt_command = f'sbt "testOnly {main_package_name}.{test_module_name} -- -DwriteVcd=1"'
@@ -66,8 +83,27 @@ if st.button("Compile and Generate VCD"):
 
                 if result.returncode == 0:
                     st.success("VCD generated successfully!")
-                    # Optionally, call your VCD generation script if needed
-                    os.system('python3 GenerateVcd.py')
+                    
+                    # Locate the VCD file
+                    test_run_dir = "test_run_dir"
+                    vcd_file_path = find_vcd_file(test_run_dir)
+
+                    if vcd_file_path:
+                        # Add a download button for the VCD file
+                        with open(vcd_file_path, "rb") as file:
+                            st.download_button(
+                                label="Download VCD File",
+                                data=file,
+                                file_name=os.path.basename(vcd_file_path),
+                                mime="application/octet-stream",
+                            )
+
+                        # Provide a link to vcdrom with a manual upload instruction
+                        st.markdown(
+                            f"[Open vcdrom](https://vc.drom.io/) and upload the generated VCD file."
+                        )
+                    else:
+                        st.error("VCD file not found in the test_run_dir.")
                 else:
                     st.error(f"Error generating VCD: {result.stderr}")
 

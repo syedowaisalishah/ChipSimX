@@ -2,41 +2,5 @@
 [debug] IncrementalCompile.incrementalCompile
 [debug] previous = Stamps for: 2 products, 1 sources, 2 libraries
 [debug] current source = Set(${BASE}/src/main/scala/andgates.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/andgates.scala), removed = Set(${BASE}/src/main/scala/orgates.scala), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
-[debug] 
-[debug] Initial source changes:
-[debug] 	removed: Set(${BASE}/src/main/scala/orgates.scala)
-[debug] 	added: Set(${BASE}/src/main/scala/andgates.scala)
-[debug] 	modified: Set()
-[debug] Invalidated products: Set()
-[debug] External API changes: API Changes: Set()
-[debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated classes: Set(myproject.gates.orgates)
-[debug] Sources indirectly invalidated by:
-[debug] 	product: Set()
-[debug] 	binary dep: Set()
-[debug] 	external source: Set()
-[debug] all 1 sources are invalidated
-[debug] Initial set of included nodes: myproject.gates.orgates
-[debug] Recompiling all sources: number of invalidated sources > 50.0 percent of all sources
-[debug] compilation cycle 1
-[info] compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
-[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.10.4:compile for Scala 2.13.8
-[debug] [zinc] Running cached compiler 1f3d2e3d for Scala compiler version 2.13.8
-[debug] [zinc] The Scala compiler is invoked with:
-[debug] 	-language:reflectiveCalls
-[debug] 	-deprecation
-[debug] 	-feature
-[debug] 	-Xcheckinit
-[debug] 	-P:chiselplugin:genBundleElements
-[debug] 	-Xplugin:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-plugin_2.13.8/3.5.4/chisel3-plugin_2.13.8-3.5.4.jar
-[debug] 	-Xplugin:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.8.10/semanticdb-scalac_2.13.8-4.8.10.jar
-[debug] 	-Yrangepos
-[debug] 	-P:semanticdb:synthetics:on
-[debug] 	-P:semanticdb:failures:warning
-[debug] 	-P:semanticdb:sourceroot:/home/syedowais/ChipSimX
-[debug] 	-P:semanticdb:targetroot:/home/syedowais/ChipSimX/target/scala-2.13/meta
-[debug] 	-classpath
-[debug] 	/home/syedowais/ChipSimX/target/scala-2.13/classes:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3_2.13/3.5.4/chisel3_2.13-3.5.4.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.3/semanticdb-javac-0.10.3.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-macros_2.13/3.5.4/chisel3-macros_2.13-3.5.4.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-core_2.13/3.5.4/chisel3-core_2.13-3.5.4.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.8.0/os-lib_2.13-0.8.0.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl_2.13/1.5.4/firrtl_2.13-1.5.4.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.7.0/geny_2.13-0.7.0.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.18.0/protobuf-java-3.18.0.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/scopt/scopt_2.13/3.7.1/scopt_2.13-3.7.1.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.13/0.4.2/moultingyaml_2.13-0.4.2.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native_2.13/3.6.12/json4s-native_2.13-3.6.12.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/data-class_2.13/0.2.5/data-class_2.13-0.2.5.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.13/3.6.12/json4s-core_2.13-3.6.12.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.13/3.6.12/json4s-ast_2.13-3.6.12.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.13/3.6.12/json4s-scalap_2.13-3.6.12.jar:/home/syedowais/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar
-[debug] Scala compilation took 6.175729125 s
-[info] done compiling
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] No changes

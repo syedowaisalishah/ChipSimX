@@ -7217,3 +7217,1347 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental)
 2024.11.05 02:03:06 INFO  Processing buildTarget/compile
 2024.11.05 02:04:06 INFO  Processing buildTarget/compile
 2024.11.05 02:05:06 INFO  Processing buildTarget/compile
+2024.11.05 02:06:06 INFO  Processing buildTarget/compile
+2024.11.05 02:07:06 INFO  Processing buildTarget/compile
+2024.11.05 02:07:34 INFO  Running BSP server List(/home/syedowais/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java, -Xms100m, -Xmx100m, -classpath, /home/syedowais/.cache/sbt/boot/sbt-launch/1.10.4/sbt-launch-1.10.4.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+2024.11.05 02:07:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/syedowais/ChipSimX/.metals/bsp.trace.json or /home/syedowais/.cache/metals/bsp.trace.json
+2024.11.05 19:55:30 INFO  Started: Metals version 1.4.0 in folders '/home/syedowais/ChipSimX' for client Visual Studio Code 1.95.1.
+2024.11.05 19:55:30 INFO  time: initialize in 0.12s
+2024.11.05 19:55:38 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.05 19:55:39 INFO  Attempting to connect to the build server...
+2024.11.05 19:55:40 INFO  Running BSP server List(/home/syedowais/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java, -Xms100m, -Xmx100m, -classpath, /home/syedowais/.cache/sbt/boot/sbt-launch/1.10.4/sbt-launch-1.10.4.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+2024.11.05 19:55:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/syedowais/ChipSimX/.metals/bsp.trace.json or /home/syedowais/.cache/metals/bsp.trace.json
+2024.11.05 19:56:05 INFO  BSP server: [info] server was not detected. starting an instance
+2024.11.05 19:56:10 INFO  BSP server: [info] welcome to sbt 1.10.4 (Eclipse Adoptium Java 17)
+2024.11.05 19:56:12 INFO  BSP server: [info] loading settings for project chipsimx-build-build from metals.sbt ...
+2024.11.05 19:56:14 INFO  BSP server: [info] loading project definition from /home/syedowais/ChipSimX/project/project
+2024.11.05 19:56:17 INFO  BSP server: [info] loading settings for project chipsimx-build from metals.sbt ...
+2024.11.05 19:56:17 INFO  BSP server: [info] loading project definition from /home/syedowais/ChipSimX/project
+2024.11.05 19:56:19 INFO  BSP server: [info] loading settings for project root from build.sbt ...
+2024.11.05 19:56:19 INFO  BSP server: [info] set current project to magmasi (in build file:/home/syedowais/ChipSimX/)
+2024.11.05 19:56:19 INFO  BSP server: [info] sbt server started at local:///home/syedowais/.sbt/1.0/server/e433ea5cbc6df0d48df5/sock
+2024.11.05 19:56:19 INFO  time: Connected to build server in 40s
+2024.11.05 19:56:19 INFO  Connected to Build server: sbt v1.10.4
+2024.11.05 19:56:19 INFO  Processing workspace/buildTargets
+2024.11.05 19:56:19 INFO  Processing buildTarget/scalacOptions
+2024.11.05 19:56:19 INFO  Processing buildTarget/sources
+2024.11.05 19:56:20 INFO  Processing buildTarget/dependencySources
+2024.11.05 19:58:29 ERROR lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:
+https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4-javadoc.jar: download error: Caught java.net.SocketException (Connection reset) while downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4-javadoc.jar
+https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0-javadoc.jar: download error: Caught java.net.SocketException (Connection reset) while downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0-javadoc.jar
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0-javadoc.jar: download error: Caught java.net.SocketException (Connection reset) while downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0-javadoc.jar
+
+	at lmcoursier.internal.shaded.coursier.Artifacts$.$anonfun$fetchArtifacts$9(Artifacts.scala:365)
+	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$extension$1(Task.scala:14)
+	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$extension$1$adapted(Task.scala:14)
+	at lmcoursier.internal.shaded.coursier.util.Task$.wrap(Task.scala:82)
+	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$2(Task.scala:14)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:51)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: lmcoursier.internal.shaded.coursier.cache.ArtifactError$DownloadError: download error: Caught java.net.SocketException (Connection reset) while downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4-javadoc.jar
+	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$.helper$2(Downloader.scala:793)
+	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$.coursier$cache$internal$Downloader$$downloading(Downloader.scala:806)
+	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$Blocking$.remote(Downloader.scala:415)
+	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader.$anonfun$remote$6(Downloader.scala:533)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:42)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1500)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1415)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:450)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:421)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:580)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)
+	at lmcoursier.internal.shaded.coursier.cache.CacheUrl$.redirectTo(CacheUrl.scala:179)
+	at lmcoursier.internal.shaded.coursier.cache.CacheUrl$.redirect(CacheUrl.scala:194)
+	at lmcoursier.internal.shaded.coursier.cache.CacheUrl$.urlConnectionMaybePartial(CacheUrl.scala:350)
+	at lmcoursier.internal.shaded.coursier.cache.ConnectionBuilder.connectionMaybePartial(ConnectionBuilder.scala:50)
+	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$Blocking$.doDownload(Downloader.scala:222)
+	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$Blocking$.$anonfun$remote$2(Downloader.scala:410)
+	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)
+	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)
+	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$Blocking$.$anonfun$remote$1(Downloader.scala:413)
+	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$.$anonfun$downloading$1(Downloader.scala:764)
+	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withUrlLock(CacheLocks.scala:112)
+	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$.helper$2(Downloader.scala:764)
+	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$.coursier$cache$internal$Downloader$$downloading(Downloader.scala:806)
+	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$Blocking$.remote(Downloader.scala:415)
+	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader.$anonfun$remote$6(Downloader.scala:533)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:42)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024.11.05 19:58:29 INFO  Failed to run request with params DependencySourcesResult
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (updateClassifiers) lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:
+https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4-javadoc.jar: download error: Caught java.net.SocketException (Connection reset) while downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4-javadoc.jar
+https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0-javadoc.jar: download error: Caught java.net.SocketException (Connection reset) while downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0-javadoc.jar
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0-javadoc.jar: download error: Caught java.net.SocketException (Connection reset) while downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0-javadoc.jar
+
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.05 19:58:29 ERROR (updateClassifiers) lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:
+https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4-javadoc.jar: download error: Caught java.net.SocketException (Connection reset) while downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4-javadoc.jar
+https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0-javadoc.jar: download error: Caught java.net.SocketException (Connection reset) while downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0-javadoc.jar
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0-javadoc.jar: download error: Caught java.net.SocketException (Connection reset) while downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0-javadoc.jar
+2024.11.05 19:58:29 INFO  Disconnecting from sbt session...
+2024.11.05 19:58:29 ERROR Failed to connect with build server, no functionality will work.
+scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DependencySourcesResult
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$9(BuildServerConnection.scala:555)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:555)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:530)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (updateClassifiers) lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:
+https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4-javadoc.jar: download error: Caught java.net.SocketException (Connection reset) while downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4-javadoc.jar
+https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0-javadoc.jar: download error: Caught java.net.SocketException (Connection reset) while downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0-javadoc.jar
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0-javadoc.jar: download error: Caught java.net.SocketException (Connection reset) while downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0-javadoc.jar
+
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.05 19:58:29 INFO  Processing buildTarget/compile
+2024.11.05 19:58:29 INFO  Shut down connection with build server.
+2024.11.06 01:09:55 INFO  no build target found for /home/syedowais/ChipSimX/src/main/scala/andgates.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.06 01:09:55 INFO  no build target found for /home/syedowais/ChipSimX/src/main/scala/andgates.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.06 01:09:56 INFO  no build target found for /home/syedowais/ChipSimX/src/main/scala/andgates.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 06, 2024 1:09:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.11.06 01:09:56 INFO  no build target found for /home/syedowais/ChipSimX/src/main/scala/andgates.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.09 21:31:29 INFO  Started: Metals version 1.4.0 in folders '/home/syedowais/ChipSimX' for client Visual Studio Code 1.95.1.
+2024.11.09 21:31:29 INFO  time: initialize in 0.21s
+2024.11.09 21:31:39 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.09 21:31:40 INFO  Attempting to connect to the build server...
+2024.11.09 21:31:41 INFO  Running BSP server List(/home/syedowais/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java, -Xms100m, -Xmx100m, -classpath, /home/syedowais/.cache/sbt/boot/sbt-launch/1.10.4/sbt-launch-1.10.4.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+2024.11.09 21:31:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/syedowais/ChipSimX/.metals/bsp.trace.json or /home/syedowais/.cache/metals/bsp.trace.json
+2024.11.09 21:32:02 INFO  BSP server: [info] server was not detected. starting an instance
+2024.11.09 21:32:11 INFO  BSP server: [info] welcome to sbt 1.10.4 (Eclipse Adoptium Java 17)
+2024.11.09 21:32:13 INFO  BSP server: [info] loading settings for project chipsimx-build-build from metals.sbt ...
+2024.11.09 21:32:17 INFO  BSP server: [info] loading project definition from /home/syedowais/ChipSimX/project/project
+2024.11.09 21:32:22 INFO  BSP server: [info] loading settings for project chipsimx-build from metals.sbt ...
+2024.11.09 21:32:22 INFO  BSP server: [info] loading project definition from /home/syedowais/ChipSimX/project
+2024.11.09 21:32:24 INFO  BSP server: [info] loading settings for project root from build.sbt ...
+2024.11.09 21:32:24 INFO  BSP server: [info] set current project to magmasi (in build file:/home/syedowais/ChipSimX/)
+2024.11.09 21:32:24 INFO  BSP server: [info] sbt server started at local:///home/syedowais/.sbt/1.0/server/e433ea5cbc6df0d48df5/sock
+2024.11.09 21:32:25 INFO  time: Connected to build server in 45s
+2024.11.09 21:32:25 INFO  Connected to Build server: sbt v1.10.4
+2024.11.09 21:32:25 INFO  Processing workspace/buildTargets
+2024.11.09 21:32:25 INFO  Processing buildTarget/scalacOptions
+2024.11.09 21:32:27 INFO  Processing buildTarget/sources
+2024.11.09 21:32:27 INFO  Processing buildTarget/dependencySources
+2024.11.09 21:32:58 INFO  time: Imported build in 32s
+2024.11.09 21:32:58 INFO  running doctor check
+2024.11.09 21:32:58 INFO  java targets: 
+2024.11.09 21:32:59 WARN  2.13.8 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2024.11.09 21:33:21 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.09 21:33:25 INFO  Processing buildTarget/compile
+2024.11.09 21:33:39 INFO  time: indexed workspace in 41s
+2024.11.09 21:33:39 INFO  Processing buildTarget/scalaTestClasses
+2024.11.09 21:33:39 INFO  compiling root
+2024.11.09 21:33:41 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.09 21:33:41 INFO  Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.8. Compiling...
+2024.11.09 21:34:04 INFO  Compilation completed in 23.183s.
+2024.11.09 21:34:14 INFO  done compiling
+2024.11.09 21:34:14 INFO  time: compiled root in 33s
+2024.11.09 21:34:14 INFO  compiling root-test
+2024.11.09 21:34:14 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/test-classes ...
+2024.11.09 21:34:15 INFO  done compiling
+2024.11.09 21:34:15 INFO  time: compiled root-test in 1.69s
+2024.11.09 21:34:15 INFO  Processing buildTarget/scalaMainClasses
+2024.11.09 21:34:15 INFO  compiling root
+2024.11.09 21:34:15 INFO  time: compiled root in 13ms
+2024.11.09 21:34:15 INFO  compiling root-test
+2024.11.09 21:34:15 INFO  time: compiled root-test in 9ms
+2024.11.09 21:34:25 INFO  Processing buildTarget/compile
+2024.11.09 21:35:25 INFO  Processing buildTarget/compile
+2024.11.09 21:36:25 INFO  Processing buildTarget/compile
+2024.11.09 21:37:25 INFO  Processing buildTarget/compile
+2024.11.09 21:38:25 INFO  Processing buildTarget/compile
+2024.11.09 21:39:25 INFO  Processing buildTarget/compile
+2024.11.09 21:40:25 INFO  Processing buildTarget/compile
+2024.11.09 21:41:25 INFO  Processing buildTarget/compile
+2024.11.09 21:42:25 INFO  Processing buildTarget/compile
+2024.11.09 21:43:25 INFO  Processing buildTarget/compile
+2024.11.10 00:07:50 INFO  Shutting down server
+2024.11.10 00:07:50 INFO  shutting down Metals
+2024.11.10 00:07:50 INFO  Shut down connection with build server.
+2024.11.10 00:07:51 INFO  Exiting server
+2024.11.13 00:16:38 INFO  Started: Metals version 1.4.0 in folders '/home/syedowais/ChipSimX' for client Visual Studio Code 1.95.1.
+2024.11.13 00:16:39 INFO  time: initialize in 0.93s
+2024.11.13 00:16:53 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.13 00:16:54 INFO  Attempting to connect to the build server...
+2024.11.13 00:16:55 INFO  Running BSP server List(/home/syedowais/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java, -Xms100m, -Xmx100m, -classpath, /home/syedowais/.cache/sbt/boot/sbt-launch/1.10.4/sbt-launch-1.10.4.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+2024.11.13 00:16:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/syedowais/ChipSimX/.metals/bsp.trace.json or /home/syedowais/.cache/metals/bsp.trace.json
+2024.11.13 00:17:37 INFO  BSP server: [info] server was not detected. starting an instance
+2024.11.13 00:17:50 INFO  BSP server: [info] welcome to sbt 1.10.4 (Eclipse Adoptium Java 17)
+2024.11.13 00:17:54 INFO  BSP server: [info] loading settings for project chipsimx-build-build from metals.sbt ...
+2024.11.13 00:17:58 INFO  BSP server: [info] loading project definition from /home/syedowais/ChipSimX/project/project
+2024.11.13 00:17:59 ERROR Timeout waiting for 'build/initialize' response
+2024.11.13 00:17:59 WARN  Retrying connection to the build server sbt
+2024.11.13 00:17:59 INFO  Running BSP server List(/home/syedowais/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java, -Xms100m, -Xmx100m, -classpath, /home/syedowais/.cache/sbt/boot/sbt-launch/1.10.4/sbt-launch-1.10.4.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+2024.11.13 00:17:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/syedowais/ChipSimX/.metals/bsp.trace.json or /home/syedowais/.cache/metals/bsp.trace.json
+2024.11.13 00:18:00 INFO  BSP server: [info] server was not detected. starting an instance
+2024.11.13 00:18:02 INFO  BSP server: [info] welcome to sbt 1.10.4 (Eclipse Adoptium Java 17)
+2024.11.13 00:18:02 INFO  BSP server: [info] loading settings for project chipsimx-build-build from metals.sbt ...
+2024.11.13 00:18:04 INFO  BSP server: [info] loading project definition from /home/syedowais/ChipSimX/project/project
+2024.11.13 00:18:16 INFO  BSP server: [info] loading settings for project chipsimx-build from metals.sbt ...
+2024.11.13 00:18:16 INFO  BSP server: [info] loading project definition from /home/syedowais/ChipSimX/project
+2024.11.13 00:18:21 INFO  BSP server: [info] loading settings for project root from build.sbt ...
+2024.11.13 00:18:21 INFO  BSP server: [info] set current project to magmasi (in build file:/home/syedowais/ChipSimX/)
+2024.11.13 00:18:22 INFO  BSP server: [info] sbt server started at local:///home/syedowais/.sbt/1.0/server/e433ea5cbc6df0d48df5/sock
+2024.11.13 00:18:22 INFO  time: Connected to build server in 1m28s
+2024.11.13 00:18:22 INFO  Connected to Build server: sbt v1.10.4
+2024.11.13 00:18:22 INFO  Processing workspace/buildTargets
+2024.11.13 00:18:26 INFO  Processing buildTarget/scalacOptions
+2024.11.13 00:18:26 INFO  Processing buildTarget/sources
+2024.11.13 00:18:26 INFO  Processing buildTarget/dependencySources
+2024.11.13 00:18:39 INFO  time: Imported build in 17s
+2024.11.13 00:18:39 INFO  running doctor check
+2024.11.13 00:18:39 INFO  java targets: 
+2024.11.13 00:18:49 WARN  2.13.8 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2024.11.13 00:19:13 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.13 00:19:21 INFO  time: indexed workspace in 41s
+2024.11.13 00:19:21 INFO  Processing buildTarget/scalaTestClasses
+2024.11.13 00:19:21 INFO  compiling root
+2024.11.13 00:19:24 INFO  time: compiled root in 2.4s
+2024.11.13 00:19:24 INFO  compiling root-test
+2024.11.13 00:19:25 INFO  time: compiled root-test in 1.39s
+2024.11.13 00:19:25 INFO  Processing buildTarget/scalaMainClasses
+2024.11.13 00:19:25 INFO  compiling root
+2024.11.13 00:19:25 INFO  time: compiled root in 13ms
+2024.11.13 00:19:25 INFO  compiling root-test
+2024.11.13 00:19:25 INFO  time: compiled root-test in 7ms
+2024.11.13 00:19:25 INFO  Processing buildTarget/compile
+2024.11.13 00:20:22 INFO  Processing buildTarget/compile
+2024.11.13 00:21:22 INFO  Processing buildTarget/compile
+2024.11.13 00:22:22 INFO  Processing buildTarget/compile
+2024.11.13 00:23:22 INFO  Processing buildTarget/compile
+2024.11.13 00:24:22 INFO  Processing buildTarget/compile
+2024.11.13 00:25:22 INFO  Processing buildTarget/compile
+2024.11.13 00:26:22 INFO  Processing buildTarget/compile
+2024.11.13 00:27:22 INFO  Processing buildTarget/compile
+2024.11.13 00:28:22 INFO  Processing buildTarget/compile
+2024.11.14 19:14:50 INFO  Started: Metals version 1.4.0 in folders '/home/syedowais/ChipSimX' for client Visual Studio Code 1.95.1.
+2024.11.14 19:14:56 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.14 19:14:56 INFO  Attempting to connect to the build server...
+2024.11.14 19:14:56 INFO  Running BSP server List(/home/syedowais/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java, -Xms100m, -Xmx100m, -classpath, /home/syedowais/.cache/sbt/boot/sbt-launch/1.10.4/sbt-launch-1.10.4.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+2024.11.14 19:14:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/syedowais/ChipSimX/.metals/bsp.trace.json or /home/syedowais/.cache/metals/bsp.trace.json
+2024.11.14 19:15:03 INFO  BSP server: [info] server was not detected. starting an instance
+2024.11.14 19:15:05 INFO  BSP server: [info] welcome to sbt 1.10.4 (Eclipse Adoptium Java 17)
+2024.11.14 19:15:06 INFO  BSP server: [info] loading settings for project chipsimx-build-build from metals.sbt ...
+2024.11.14 19:15:08 INFO  BSP server: [info] loading project definition from /home/syedowais/ChipSimX/project/project
+2024.11.14 19:15:10 INFO  BSP server: [info] loading settings for project chipsimx-build from metals.sbt ...
+2024.11.14 19:15:10 INFO  BSP server: [info] loading project definition from /home/syedowais/ChipSimX/project
+2024.11.14 19:15:13 INFO  BSP server: [info] loading settings for project root from build.sbt ...
+2024.11.14 19:15:13 INFO  BSP server: [info] set current project to magmasi (in build file:/home/syedowais/ChipSimX/)
+2024.11.14 19:15:13 INFO  BSP server: [info] sbt server started at local:///home/syedowais/.sbt/1.0/server/e433ea5cbc6df0d48df5/sock
+2024.11.14 19:15:13 INFO  time: Connected to build server in 17s
+2024.11.14 19:15:13 INFO  Connected to Build server: sbt v1.10.4
+2024.11.14 19:15:13 INFO  Processing workspace/buildTargets
+2024.11.14 19:15:13 INFO  Processing buildTarget/scalacOptions
+2024.11.14 19:15:15 INFO  Processing buildTarget/sources
+2024.11.14 19:15:15 INFO  Processing buildTarget/dependencySources
+2024.11.14 19:15:18 INFO  time: Imported build in 4.1s
+2024.11.14 19:15:18 INFO  running doctor check
+2024.11.14 19:15:18 INFO  java targets: 
+2024.11.14 19:15:40 WARN  2.13.8 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2024.11.14 19:15:55 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.14 19:15:57 INFO  time: indexed workspace in 39s
+2024.11.14 19:15:57 INFO  Processing buildTarget/scalaTestClasses
+2024.11.14 19:15:57 INFO  compiling root
+2024.11.14 19:15:58 INFO  time: compiled root in 0.68s
+2024.11.14 19:15:58 INFO  compiling root-test
+2024.11.14 19:15:58 INFO  time: compiled root-test in 0.12s
+2024.11.14 19:15:58 INFO  Processing buildTarget/scalaMainClasses
+2024.11.14 19:15:58 INFO  compiling root
+2024.11.14 19:15:58 INFO  time: compiled root in 1ms
+2024.11.14 19:15:58 INFO  compiling root-test
+2024.11.14 19:15:58 INFO  time: compiled root-test in 10ms
+2024.11.14 19:16:13 INFO  Processing buildTarget/compile
+2024.11.14 19:17:13 INFO  Processing buildTarget/compile
+2024.11.14 19:18:13 INFO  Processing buildTarget/compile
+2024.11.14 19:19:13 INFO  Processing buildTarget/compile
+2024.11.14 19:20:13 INFO  Processing buildTarget/compile
+2024.11.14 19:21:13 INFO  Processing buildTarget/compile
+2024.11.14 19:22:13 INFO  Processing buildTarget/compile
+2024.11.14 19:23:13 INFO  Processing buildTarget/compile
+2024.11.14 19:24:13 INFO  Processing buildTarget/compile
+2024.11.14 19:25:13 INFO  Processing buildTarget/compile
+Nov 14, 2024 7:57:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@56f7e951[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 6736]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024.11.26 01:24:05 INFO  Started: Metals version 1.4.0 in folders '/home/syedowais/ChipSimX' for client Visual Studio Code 1.95.3.
+2024.11.26 01:24:05 INFO  time: initialize in 0.13s
+2024.11.26 01:24:17 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.26 01:24:18 INFO  Attempting to connect to the build server...
+2024.11.26 01:24:19 INFO  Running BSP server List(/home/syedowais/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java, -Xms100m, -Xmx100m, -classpath, /home/syedowais/.cache/sbt/boot/sbt-launch/1.10.4/sbt-launch-1.10.4.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+2024.11.26 01:24:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/syedowais/ChipSimX/.metals/bsp.trace.json or /home/syedowais/.cache/metals/bsp.trace.json
+2024.11.26 01:24:56 INFO  BSP server: [info] server was not detected. starting an instance
+2024.11.26 01:24:56 INFO  BSP server: downloading sbt launcher 1.10.5
+2024.11.26 01:25:11 INFO  BSP server: [info] welcome to sbt 1.10.4 (Eclipse Adoptium Java 17)
+2024.11.26 01:25:15 INFO  BSP server: [info] loading settings for project chipsimx-build-build from metals.sbt ...
+2024.11.26 01:25:20 ERROR Timeout waiting for 'build/initialize' response
+2024.11.26 01:25:20 WARN  Retrying connection to the build server sbt
+2024.11.26 01:25:20 INFO  Running BSP server List(/home/syedowais/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java, -Xms100m, -Xmx100m, -classpath, /home/syedowais/.cache/sbt/boot/sbt-launch/1.10.4/sbt-launch-1.10.4.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+2024.11.26 01:25:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/syedowais/ChipSimX/.metals/bsp.trace.json or /home/syedowais/.cache/metals/bsp.trace.json
+2024.11.26 01:25:20 INFO  BSP server: [info] server was not detected. starting an instance
+2024.11.26 01:25:23 INFO  BSP server: [info] welcome to sbt 1.10.4 (Eclipse Adoptium Java 17)
+2024.11.26 01:25:23 INFO  BSP server: [info] loading settings for project chipsimx-build-build from metals.sbt ...
+2024.11.26 01:25:26 INFO  BSP server: [info] loading project definition from /home/syedowais/ChipSimX/project/project
+2024.11.26 01:25:37 INFO  BSP server: [info] loading settings for project chipsimx-build from metals.sbt ...
+2024.11.26 01:25:37 INFO  BSP server: [info] loading project definition from /home/syedowais/ChipSimX/project
+2024.11.26 01:25:42 INFO  BSP server: [info] loading settings for project root from build.sbt ...
+2024.11.26 01:25:42 INFO  BSP server: [info] set current project to magmasi (in build file:/home/syedowais/ChipSimX/)
+2024.11.26 01:25:42 INFO  BSP server: [info] sbt server started at local:///home/syedowais/.sbt/1.0/server/e433ea5cbc6df0d48df5/sock
+2024.11.26 01:25:43 INFO  time: Connected to build server in 1m25s
+2024.11.26 01:25:43 INFO  Connected to Build server: sbt v1.10.4
+2024.11.26 01:25:43 INFO  Processing workspace/buildTargets
+2024.11.26 01:25:46 INFO  Processing buildTarget/scalacOptions
+2024.11.26 01:25:48 INFO  Processing buildTarget/sources
+2024.11.26 01:25:48 INFO  Processing buildTarget/dependencySources
+2024.11.26 01:26:02 INFO  time: Imported build in 18s
+2024.11.26 01:26:02 INFO  running doctor check
+2024.11.26 01:26:02 INFO  java targets: 
+2024.11.26 01:26:14 WARN  2.13.8 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2024.11.26 01:26:40 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.26 01:26:43 INFO  Processing buildTarget/compile
+2024.11.26 01:26:53 INFO  time: indexed workspace in 51s
+2024.11.26 01:26:53 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 01:26:53 INFO  compiling root
+2024.11.26 01:26:56 INFO  time: compiled root in 2.17s
+2024.11.26 01:26:56 INFO  compiling root-test
+2024.11.26 01:26:57 INFO  time: compiled root-test in 1.3s
+2024.11.26 01:26:57 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 01:26:57 INFO  compiling root
+2024.11.26 01:26:57 INFO  time: compiled root in 22ms
+2024.11.26 01:26:57 INFO  compiling root-test
+2024.11.26 01:26:57 INFO  time: compiled root-test in 7ms
+2024.11.26 01:27:43 INFO  Processing buildTarget/compile
+2024.11.26 01:28:43 INFO  Processing buildTarget/compile
+2024.11.26 01:29:43 INFO  Processing buildTarget/compile
+2024.11.26 01:30:43 INFO  Processing buildTarget/compile
+2024.11.26 01:31:43 INFO  Processing buildTarget/compile
+2024.11.26 01:32:43 INFO  Processing buildTarget/compile
+2024.11.26 01:33:43 INFO  Processing buildTarget/compile
+2024.11.26 01:34:43 INFO  Processing buildTarget/compile
+2024.11.26 01:35:43 INFO  Processing buildTarget/compile
+2024.11.26 01:36:43 INFO  Processing buildTarget/compile
+2024.11.26 01:49:54 INFO  Processing buildTarget/compile
+2024.11.26 01:49:54 INFO  compiling root
+2024.11.26 01:49:59 INFO  time: compiled root in 4.41s
+2024.11.26 01:49:59 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 01:49:59 INFO  compiling root
+2024.11.26 01:49:59 INFO  time: compiled root in 10ms
+2024.11.26 01:49:59 INFO  Processing buildTarget/scalaTestClasses
+Nov 26, 2024 1:49:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Nov 26, 2024 1:50:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2024.11.26 01:50:12 INFO  Processing buildTarget/compile
+2024.11.26 01:50:12 INFO  compiling root
+2024.11.26 01:50:12 INFO  time: compiled root in 33ms
+2024.11.26 01:50:12 INFO  compiling root-test
+2024.11.26 01:50:12 INFO  time: compiled root-test in 43ms
+2024.11.26 01:50:12 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 01:50:12 INFO  compiling root
+2024.11.26 01:50:12 INFO  time: compiled root in 8ms
+2024.11.26 01:50:12 INFO  compiling root-test
+2024.11.26 01:50:12 INFO  time: compiled root-test in 13ms
+2024.11.26 01:50:12 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 01:50:12 INFO  compiling root
+2024.11.26 01:50:12 INFO  time: compiled root in 23ms
+2024.11.26 01:50:12 INFO  compiling root-test
+2024.11.26 01:50:12 INFO  time: compiled root-test in 11ms
+Nov 26, 2024 1:50:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Nov 26, 2024 1:50:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+2024.11.26 01:50:43 INFO  Processing buildTarget/compile
+2024.11.26 01:50:48 INFO  Processing buildTarget/compile
+2024.11.26 01:50:48 INFO  compiling root
+2024.11.26 01:50:48 INFO  time: compiled root in 0.18s
+2024.11.26 01:50:48 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 01:50:48 INFO  compiling root
+2024.11.26 01:50:48 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.26 01:51:08 INFO  done compiling
+2024.11.26 01:51:08 INFO  time: compiled root in 19s
+2024.11.26 01:51:08 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 01:51:08 INFO  Processing buildTarget/compile
+2024.11.26 01:51:08 INFO  compiling root
+2024.11.26 01:51:08 INFO  time: compiled root in 8ms
+2024.11.26 01:51:08 INFO  compiling root-test
+2024.11.26 01:51:08 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/test-classes ...
+2024.11.26 01:51:11 INFO  done compiling
+2024.11.26 01:51:11 INFO  time: compiled root-test in 2.02s
+2024.11.26 01:51:11 INFO  Processing buildTarget/compile
+2024.11.26 01:51:11 INFO  compiling root
+2024.11.26 01:51:11 INFO  time: compiled root in 26ms
+2024.11.26 01:51:11 INFO  compiling root-test
+2024.11.26 01:51:11 INFO  time: compiled root-test in 19ms
+2024.11.26 01:51:11 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 01:51:11 INFO  compiling root
+2024.11.26 01:51:11 INFO  time: compiled root in 20ms
+2024.11.26 01:51:11 INFO  compiling root-test
+2024.11.26 01:51:11 INFO  time: compiled root-test in 22ms
+2024.11.26 01:51:11 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 01:51:11 INFO  compiling root
+2024.11.26 01:51:11 INFO  time: compiled root in 9ms
+2024.11.26 01:51:11 INFO  compiling root-test
+2024.11.26 01:51:11 INFO  time: compiled root-test in 5ms
+2024.11.26 01:51:11 INFO  Processing buildTarget/compile
+2024.11.26 01:51:11 INFO  compiling root
+2024.11.26 01:51:11 INFO  time: compiled root in 4ms
+2024.11.26 01:51:11 INFO  compiling root-test
+2024.11.26 01:51:11 INFO  time: compiled root-test in 3ms
+2024.11.26 01:51:12 INFO  Processing buildTarget/compile
+2024.11.26 01:51:12 INFO  compiling root
+2024.11.26 01:51:12 INFO  time: compiled root in 25ms
+2024.11.26 01:51:12 INFO  compiling root-test
+2024.11.26 01:51:12 INFO  time: compiled root-test in 31ms
+2024.11.26 01:51:12 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 01:51:12 INFO  compiling root
+2024.11.26 01:51:12 INFO  time: compiled root in 5ms
+2024.11.26 01:51:12 INFO  compiling root-test
+2024.11.26 01:51:12 INFO  time: compiled root-test in 2ms
+2024.11.26 01:51:12 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 01:51:12 INFO  compiling root
+2024.11.26 01:51:12 INFO  time: compiled root in 3ms
+2024.11.26 01:51:12 INFO  compiling root-test
+2024.11.26 01:51:12 INFO  time: compiled root-test in 7ms
+2024.11.26 01:51:12 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 01:51:12 INFO  compiling root
+2024.11.26 01:51:12 INFO  time: compiled root in 6ms
+2024.11.26 01:51:12 INFO  compiling root-test
+2024.11.26 01:51:12 INFO  time: compiled root-test in 6ms
+2024.11.26 01:51:12 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 01:51:12 INFO  compiling root
+2024.11.26 01:51:12 INFO  time: compiled root in 6ms
+2024.11.26 01:51:12 INFO  compiling root-test
+2024.11.26 01:51:12 INFO  time: compiled root-test in 5ms
+2024.11.26 01:51:43 INFO  Processing buildTarget/compile
+2024.11.26 01:52:43 INFO  Processing buildTarget/compile
+2024.11.26 01:53:43 INFO  Processing buildTarget/compile
+2024.11.26 01:54:43 INFO  Processing buildTarget/compile
+2024.11.26 01:55:43 INFO  Processing buildTarget/compile
+2024.11.26 01:56:43 INFO  Processing buildTarget/compile
+2024.11.26 01:57:43 INFO  Processing buildTarget/compile
+2024.11.26 01:58:43 INFO  Processing buildTarget/compile
+2024.11.26 01:59:43 INFO  Processing buildTarget/compile
+2024.11.26 02:00:43 INFO  Processing buildTarget/compile
+2024.11.26 02:02:46 INFO  Processing buildTarget/compile
+2024.11.26 02:02:46 INFO  compiling root
+2024.11.26 02:02:46 INFO  time: compiled root in 28ms
+2024.11.26 02:02:46 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:02:46 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:02:46 INFO  compiling root
+2024.11.26 02:02:46 INFO  time: compiled root in 10ms
+2024.11.26 02:03:05 INFO  Processing buildTarget/compile
+2024.11.26 02:03:05 INFO  compiling root
+2024.11.26 02:03:05 INFO  time: compiled root in 29ms
+2024.11.26 02:03:05 INFO  compiling root-test
+2024.11.26 02:03:05 INFO  time: compiled root-test in 7ms
+2024.11.26 02:03:05 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:03:05 INFO  compiling root
+2024.11.26 02:03:05 INFO  time: compiled root in 50ms
+2024.11.26 02:03:05 INFO  compiling root-test
+2024.11.26 02:03:05 INFO  time: compiled root-test in 15ms
+2024.11.26 02:03:05 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:03:05 INFO  compiling root
+2024.11.26 02:03:05 INFO  time: compiled root in 34ms
+2024.11.26 02:03:05 INFO  compiling root-test
+2024.11.26 02:03:05 INFO  time: compiled root-test in 4ms
+2024.11.26 02:03:06 INFO  Shutting down server
+2024.11.26 02:03:06 INFO  shutting down Metals
+2024.11.26 02:03:06 INFO  Shut down connection with build server.
+2024.11.26 02:03:06 INFO  Exiting server
+2024.11.26 02:04:07 INFO  Started: Metals version 1.4.1 in folders '/home/syedowais/ChipSimX' for client Visual Studio Code 1.95.3.
+2024.11.26 02:04:09 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.26 02:04:09 INFO  no build target found for /home/syedowais/ChipSimX/src/main/scala/xorgates.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.26 02:04:09 INFO  Attempting to connect to the build server...
+2024.11.26 02:04:09 INFO  Running BSP server List(/home/syedowais/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java, -Xms100m, -Xmx100m, -classpath, /home/syedowais/.cache/sbt/boot/sbt-launch/1.10.5/sbt-launch-1.10.5.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+2024.11.26 02:04:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/syedowais/ChipSimX/.metals/bsp.trace.json or /home/syedowais/.cache/metals/bsp.trace.json
+2024.11.26 02:04:11 INFO  Processing workspace/reload
+2024.11.26 02:04:17 INFO  compiling chipsimx-build-build
+2024.11.26 02:04:21 INFO  compiling chipsimx-build
+2024.11.26 02:04:24 INFO  time: Connected to build server in 14s
+2024.11.26 02:04:24 INFO  Connected to Build server: sbt v1.10.4
+2024.11.26 02:04:24 INFO  Processing workspace/buildTargets
+2024.11.26 02:04:24 INFO  Processing buildTarget/scalacOptions
+2024.11.26 02:04:24 INFO  Processing buildTarget/sources
+2024.11.26 02:04:24 INFO  Processing buildTarget/dependencySources
+2024.11.26 02:04:25 INFO  time: Imported build in 1.52s
+2024.11.26 02:04:25 INFO  running doctor check
+2024.11.26 02:04:25 INFO  java targets: 
+2024.11.26 02:04:26 WARN  2.13.8 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+Nov 26, 2024 2:04:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Nov 26, 2024 2:04:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Nov 26, 2024 2:04:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Nov 26, 2024 2:04:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.11.26 02:04:26 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2024.11.26 02:04:26 WARN  sbt does not support `buildTarget/inverseSources`, unable to fetch targets owning source.
+2024.11.26 02:04:26 WARN  no build target for: /home/syedowais/ChipSimX/project/metals.sbt
+2024.11.26 02:04:26 WARN  no build target for: /home/syedowais/ChipSimX/project/project/metals.sbt
+2024.11.26 02:04:26 INFO  no build target found for /home/syedowais/ChipSimX/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.11.26 02:04:39 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.26 02:04:41 INFO  no build target found for /home/syedowais/ChipSimX/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.11.26 02:04:43 INFO  time: indexed workspace in 17s
+2024.11.26 02:04:43 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:04:43 INFO  compiling root
+2024.11.26 02:04:43 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.26 02:04:43 ERROR /home/syedowais/ChipSimX/src/main/scala/xorgates.scala:12:6: value xOR is not a member of chisel3.Bundle{val a: chisel3.UInt; val b: chisel3.UInt; val OR: chisel3.UInt}
+2024.11.26 02:04:43 ERROR io.xOR := io.a  ^  io.b
+2024.11.26 02:04:43 ERROR ^
+2024.11.26 02:04:43 ERROR one error found
+2024.11.26 02:04:44 INFO  time: compiled root in 0.89s
+2024.11.26 02:04:44 ERROR (Compile / compileIncremental) Compilation failed
+2024.11.26 02:04:44 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:04:44 INFO  compiling root
+2024.11.26 02:04:44 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.26 02:04:44 INFO  Scala main classes not supported by server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental) Compilation failed
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.26 02:04:44 ERROR /home/syedowais/ChipSimX/src/main/scala/xorgates.scala:12:6: value xOR is not a member of chisel3.Bundle{val a: chisel3.UInt; val b: chisel3.UInt; val OR: chisel3.UInt}
+2024.11.26 02:04:44 ERROR io.xOR := io.a  ^  io.b
+2024.11.26 02:04:44 ERROR ^
+2024.11.26 02:04:44 ERROR one error found
+2024.11.26 02:04:44 INFO  time: compiled root in 0.29s
+2024.11.26 02:04:44 INFO  Processing buildTarget/compile
+2024.11.26 02:04:44 INFO  compiling root
+2024.11.26 02:04:44 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.26 02:04:44 ERROR /home/syedowais/ChipSimX/src/main/scala/xorgates.scala:12:6: value xOR is not a member of chisel3.Bundle{val a: chisel3.UInt; val b: chisel3.UInt; val OR: chisel3.UInt}
+2024.11.26 02:04:44 ERROR io.xOR := io.a  ^  io.b
+2024.11.26 02:04:44 ERROR ^
+2024.11.26 02:04:44 ERROR one error found
+2024.11.26 02:04:44 INFO  time: compiled root in 0.24s
+2024.11.26 02:04:44 ERROR (Compile / compileIncremental) Compilation failed
+2024.11.26 02:04:44 INFO  Cancelling compilation on sbt server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental) Compilation failed
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.26 02:04:44 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:04:44 INFO  compiling root
+2024.11.26 02:04:45 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.26 02:04:45 ERROR /home/syedowais/ChipSimX/src/main/scala/xorgates.scala:12:6: value xOR is not a member of chisel3.Bundle{val a: chisel3.UInt; val b: chisel3.UInt; val OR: chisel3.UInt}
+2024.11.26 02:04:45 ERROR io.xOR := io.a  ^  io.b
+2024.11.26 02:04:45 ERROR ^
+2024.11.26 02:04:45 ERROR one error found
+2024.11.26 02:04:45 INFO  time: compiled root in 0.2s
+2024.11.26 02:04:45 ERROR (Compile / compileIncremental) Compilation failed
+2024.11.26 02:04:45 INFO  Scala main classes not supported by server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental) Compilation failed
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.26 02:04:45 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:04:45 INFO  compiling root
+2024.11.26 02:04:45 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.26 02:04:45 ERROR /home/syedowais/ChipSimX/src/main/scala/xorgates.scala:12:6: value xOR is not a member of chisel3.Bundle{val a: chisel3.UInt; val b: chisel3.UInt; val OR: chisel3.UInt}
+2024.11.26 02:04:45 ERROR io.xOR := io.a  ^  io.b
+2024.11.26 02:04:45 ERROR ^
+2024.11.26 02:04:45 ERROR one error found
+2024.11.26 02:04:45 INFO  time: compiled root in 0.29s
+2024.11.26 02:04:45 ERROR (Compile / compileIncremental) Compilation failed
+2024.11.26 02:04:45 INFO  Scala test classes not supported by server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental) Compilation failed
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.26 02:04:45 INFO  Processing buildTarget/compile
+2024.11.26 02:04:45 INFO  compiling root
+2024.11.26 02:04:45 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.26 02:04:45 ERROR /home/syedowais/ChipSimX/src/main/scala/xorgates.scala:12:6: value xOR is not a member of chisel3.Bundle{val a: chisel3.UInt; val b: chisel3.UInt; val OR: chisel3.UInt}
+2024.11.26 02:04:45 ERROR io.xOR := io.a  ^  io.b
+2024.11.26 02:04:45 ERROR ^
+2024.11.26 02:04:46 ERROR one error found
+2024.11.26 02:04:46 INFO  time: compiled root in 0.24s
+2024.11.26 02:04:45 INFO  Cancelling compilation on sbt server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental) Compilation failed
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.26 02:04:46 ERROR (Compile / compileIncremental) Compilation failed
+2024.11.26 02:04:46 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:04:46 INFO  compiling root
+2024.11.26 02:04:46 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.26 02:04:46 ERROR /home/syedowais/ChipSimX/src/main/scala/xorgates.scala:12:6: value xOR is not a member of chisel3.Bundle{val a: chisel3.UInt; val b: chisel3.UInt; val OR: chisel3.UInt}
+2024.11.26 02:04:46 ERROR io.xOR := io.a  ^  io.b
+2024.11.26 02:04:46 ERROR ^
+2024.11.26 02:04:46 ERROR one error found
+2024.11.26 02:04:46 INFO  time: compiled root in 0.21s
+2024.11.26 02:04:46 INFO  Scala main classes not supported by server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental) Compilation failed
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.26 02:04:46 ERROR (Compile / compileIncremental) Compilation failed
+2024.11.26 02:04:46 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:04:57 INFO  Processing buildTarget/compile
+2024.11.26 02:04:57 INFO  compiling root
+2024.11.26 02:04:57 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.26 02:04:57 ERROR /home/syedowais/ChipSimX/src/main/scala/xorgates.scala:12:6: value xOR is not a member of chisel3.Bundle{val a: chisel3.UInt; val b: chisel3.UInt; val OR: chisel3.UInt}
+2024.11.26 02:04:57 ERROR io.xOR := io.a  ^  io.b
+2024.11.26 02:04:57 ERROR ^
+2024.11.26 02:04:57 ERROR one error found
+2024.11.26 02:04:57 INFO  time: compiled root in 0.57s
+2024.11.26 02:04:57 ERROR (Compile / compileIncremental) Compilation failed
+2024.11.26 02:04:57 INFO  Cancelling compilation on sbt server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental) Compilation failed
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.26 02:04:57 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:04:57 INFO  compiling root
+2024.11.26 02:04:57 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.26 02:04:57 ERROR /home/syedowais/ChipSimX/src/main/scala/xorgates.scala:12:6: value xOR is not a member of chisel3.Bundle{val a: chisel3.UInt; val b: chisel3.UInt; val OR: chisel3.UInt}
+2024.11.26 02:04:57 ERROR io.xOR := io.a  ^  io.b
+2024.11.26 02:04:57 ERROR ^
+2024.11.26 02:04:57 ERROR one error found
+2024.11.26 02:04:57 INFO  time: compiled root in 0.19s
+2024.11.26 02:04:58 INFO  Scala main classes not supported by server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental) Compilation failed
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.26 02:04:57 ERROR (Compile / compileIncremental) Compilation failed
+2024.11.26 02:04:57 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:04:58 INFO  compiling root
+2024.11.26 02:04:58 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.26 02:04:58 ERROR /home/syedowais/ChipSimX/src/main/scala/xorgates.scala:12:6: value xOR is not a member of chisel3.Bundle{val a: chisel3.UInt; val b: chisel3.UInt; val OR: chisel3.UInt}
+2024.11.26 02:04:58 ERROR io.xOR := io.a  ^  io.b
+2024.11.26 02:04:58 ERROR ^
+2024.11.26 02:04:58 ERROR one error found
+2024.11.26 02:04:58 INFO  time: compiled root in 0.18s
+2024.11.26 02:04:58 INFO  Scala test classes not supported by server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental) Compilation failed
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.26 02:04:58 ERROR (Compile / compileIncremental) Compilation failed
+2024.11.26 02:05:11 INFO  Processing buildTarget/compile
+2024.11.26 02:06:01 INFO  Processing buildTarget/compile
+2024.11.26 02:06:01 INFO  compiling root
+2024.11.26 02:06:01 INFO  time: compiled root in 22ms
+2024.11.26 02:06:01 INFO  compiling root-test
+2024.11.26 02:06:01 INFO  time: compiled root-test in 4ms
+2024.11.26 02:06:01 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:06:01 INFO  compiling root
+2024.11.26 02:06:01 INFO  time: compiled root in 10ms
+2024.11.26 02:06:01 INFO  compiling root-test
+2024.11.26 02:06:01 INFO  time: compiled root-test in 1ms
+2024.11.26 02:06:01 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:06:01 INFO  compiling root
+2024.11.26 02:06:01 INFO  time: compiled root in 28ms
+2024.11.26 02:06:01 INFO  compiling root-test
+2024.11.26 02:06:01 INFO  time: compiled root-test in 11ms
+2024.11.26 02:06:01 INFO  Processing buildTarget/compile
+2024.11.26 02:06:01 INFO  compiling root
+2024.11.26 02:06:01 INFO  time: compiled root in 4ms
+2024.11.26 02:06:01 INFO  compiling root-test
+2024.11.26 02:06:01 INFO  time: compiled root-test in 18ms
+2024.11.26 02:06:02 INFO  Processing buildTarget/jvmRunEnvironment
+2024.11.26 02:06:02 INFO  compiling root
+2024.11.26 02:06:02 INFO  time: compiled root in 7ms
+2024.11.26 02:06:02 INFO  compiling root-test
+2024.11.26 02:06:02 INFO  time: compiled root-test in 7ms
+2024.11.26 02:06:02 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:06:02 INFO  compiling root
+2024.11.26 02:06:02 INFO  time: compiled root in 20ms
+2024.11.26 02:06:02 INFO  compiling root-test
+2024.11.26 02:06:02 INFO  time: compiled root-test in 15ms
+2024.11.26 02:06:02 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:06:02 INFO  compiling root
+2024.11.26 02:06:02 INFO  time: compiled root in 10ms
+2024.11.26 02:06:02 INFO  compiling root-test
+2024.11.26 02:06:02 INFO  time: compiled root-test in 6ms
+2024.11.26 02:06:02 INFO  Processing buildTarget/compile
+2024.11.26 02:06:02 INFO  compiling root
+2024.11.26 02:06:02 INFO  time: compiled root in 23ms
+2024.11.26 02:06:02 INFO  compiling root-test
+2024.11.26 02:06:02 INFO  time: compiled root-test in 8ms
+2024.11.26 02:06:02 INFO  Processing buildTarget/jvmRunEnvironment
+2024.11.26 02:06:02 INFO  compiling root
+2024.11.26 02:06:02 INFO  time: compiled root in 8ms
+2024.11.26 02:06:02 INFO  compiling root-test
+2024.11.26 02:06:02 INFO  time: compiled root-test in 10ms
+2024.11.26 02:06:02 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:06:02 INFO  compiling root
+2024.11.26 02:06:02 INFO  time: compiled root in 11ms
+2024.11.26 02:06:02 INFO  compiling root-test
+2024.11.26 02:06:03 INFO  time: compiled root-test in 6ms
+2024.11.26 02:06:03 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:06:03 INFO  compiling root
+2024.11.26 02:06:03 INFO  time: compiled root in 6ms
+2024.11.26 02:06:03 INFO  compiling root-test
+2024.11.26 02:06:03 INFO  time: compiled root-test in 5ms
+2024.11.26 02:06:11 INFO  Processing buildTarget/compile
+2024.11.26 02:07:11 INFO  Processing buildTarget/compile
+2024.11.26 02:08:11 INFO  Processing buildTarget/compile
+2024.11.26 02:09:11 INFO  Processing buildTarget/compile
+2024.11.26 02:10:11 INFO  Processing buildTarget/compile
+2024.11.26 02:11:07 INFO  Processing buildTarget/compile
+2024.11.26 02:11:07 INFO  compiling root
+2024.11.26 02:11:07 INFO  time: compiled root in 9ms
+2024.11.26 02:11:07 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:11:07 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:11:07 INFO  compiling root
+2024.11.26 02:11:07 INFO  time: compiled root in 6ms
+2024.11.26 02:11:07 INFO  Processing buildTarget/jvmRunEnvironment
+2024.11.26 02:11:07 INFO  compiling root
+2024.11.26 02:11:07 INFO  time: compiled root in 18ms
+Nov 26, 2024 2:11:07 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.11.26 02:11:11 INFO  Processing buildTarget/compile
+2024.11.26 02:11:37 INFO  Processing buildTarget/compile
+2024.11.26 02:11:37 INFO  compiling root
+2024.11.26 02:11:37 INFO  time: compiled root in 8ms
+2024.11.26 02:11:37 INFO  compiling root-test
+2024.11.26 02:11:37 INFO  time: compiled root-test in 4ms
+2024.11.26 02:11:37 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:11:37 INFO  compiling root
+2024.11.26 02:11:37 INFO  time: compiled root in 10ms
+2024.11.26 02:11:37 INFO  compiling root-test
+2024.11.26 02:11:37 INFO  time: compiled root-test in 8ms
+2024.11.26 02:11:37 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:11:37 INFO  compiling root
+2024.11.26 02:11:37 INFO  time: compiled root in 3ms
+2024.11.26 02:11:37 INFO  compiling root-test
+2024.11.26 02:11:37 INFO  time: compiled root-test in 6ms
+2024.11.26 02:12:11 INFO  Processing buildTarget/compile
+2024.11.26 02:12:58 INFO  Processing buildTarget/compile
+2024.11.26 02:12:58 INFO  compiling root
+2024.11.26 02:12:58 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.26 02:13:00 INFO  done compiling
+2024.11.26 02:13:00 INFO  time: compiled root in 1.22s
+2024.11.26 02:13:00 INFO  compiling root-test
+2024.11.26 02:13:00 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/test-classes ...
+2024.11.26 02:13:00 INFO  done compiling
+2024.11.26 02:13:00 INFO  time: compiled root-test in 0.96s
+2024.11.26 02:13:01 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:13:01 INFO  compiling root
+2024.11.26 02:13:01 INFO  time: compiled root in 1ms
+2024.11.26 02:13:01 INFO  compiling root-test
+2024.11.26 02:13:01 INFO  time: compiled root-test in 5ms
+2024.11.26 02:13:01 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:13:01 INFO  compiling root
+2024.11.26 02:13:01 INFO  time: compiled root in 14ms
+2024.11.26 02:13:01 INFO  compiling root-test
+2024.11.26 02:13:01 INFO  time: compiled root-test in 5ms
+2024.11.26 02:13:01 INFO  Processing buildTarget/compile
+2024.11.26 02:13:01 INFO  compiling root
+2024.11.26 02:13:01 INFO  time: compiled root in 16ms
+2024.11.26 02:13:01 INFO  compiling root-test
+2024.11.26 02:13:01 INFO  time: compiled root-test in 1ms
+2024.11.26 02:13:01 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:13:01 INFO  compiling root
+2024.11.26 02:13:01 INFO  time: compiled root in 11ms
+2024.11.26 02:13:01 INFO  compiling root-test
+2024.11.26 02:13:01 INFO  time: compiled root-test in 5ms
+2024.11.26 02:13:01 INFO  Processing buildTarget/compile
+2024.11.26 02:13:01 INFO  compiling root
+2024.11.26 02:13:01 INFO  time: compiled root in 30ms
+2024.11.26 02:13:01 INFO  compiling root-test
+2024.11.26 02:13:01 INFO  time: compiled root-test in 5ms
+2024.11.26 02:13:01 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:13:01 INFO  compiling root
+2024.11.26 02:13:01 INFO  time: compiled root in 9ms
+2024.11.26 02:13:01 INFO  compiling root-test
+2024.11.26 02:13:01 INFO  time: compiled root-test in 6ms
+2024.11.26 02:13:01 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:13:01 INFO  compiling root
+2024.11.26 02:13:01 INFO  time: compiled root in 2ms
+2024.11.26 02:13:01 INFO  compiling root-test
+2024.11.26 02:13:01 INFO  time: compiled root-test in 5ms
+2024.11.26 02:13:01 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:13:01 INFO  compiling root
+2024.11.26 02:13:01 INFO  time: compiled root in 3ms
+2024.11.26 02:13:01 INFO  compiling root-test
+2024.11.26 02:13:01 INFO  time: compiled root-test in 4ms
+2024.11.26 02:13:11 INFO  Processing buildTarget/compile
+2024.11.26 02:14:11 INFO  Processing buildTarget/compile
+2024.11.26 02:14:22 INFO  Processing buildTarget/compile
+2024.11.26 02:14:22 INFO  compiling root
+2024.11.26 02:14:22 INFO  time: compiled root in 12ms
+2024.11.26 02:14:22 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:14:22 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:14:22 INFO  compiling root
+2024.11.26 02:14:22 INFO  time: compiled root in 11ms
+2024.11.26 02:15:11 INFO  Processing buildTarget/compile
+2024.11.26 02:16:11 INFO  Processing buildTarget/compile
+2024.11.26 02:17:11 INFO  Processing buildTarget/compile
+2024.11.26 02:18:11 INFO  Processing buildTarget/compile
+2024.11.26 02:19:11 INFO  Processing buildTarget/compile
+2024.11.26 02:20:11 INFO  Processing buildTarget/compile
+2024.11.26 02:21:11 INFO  Processing buildTarget/compile
+2024.11.26 02:21:11 INFO  compiling root
+2024.11.26 02:21:11 INFO  time: compiled root in 19ms
+2024.11.26 02:21:11 INFO  compiling root-test
+2024.11.26 02:21:11 INFO  time: compiled root-test in 13ms
+2024.11.26 02:21:11 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:21:11 INFO  compiling root
+2024.11.26 02:21:11 INFO  time: compiled root in 6ms
+2024.11.26 02:21:11 INFO  compiling root-test
+2024.11.26 02:21:11 INFO  time: compiled root-test in 14ms
+2024.11.26 02:21:11 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:21:11 INFO  compiling root
+2024.11.26 02:21:11 INFO  time: compiled root in 3ms
+2024.11.26 02:21:11 INFO  compiling root-test
+2024.11.26 02:21:11 INFO  time: compiled root-test in 11ms
+2024.11.26 02:21:11 INFO  Processing buildTarget/compile
+2024.11.26 02:22:11 INFO  Processing buildTarget/compile
+2024.11.26 02:23:11 INFO  Processing buildTarget/compile
+2024.11.26 02:24:11 INFO  Processing buildTarget/compile
+2024.11.26 02:25:11 INFO  Processing buildTarget/compile
+2024.11.26 02:26:11 INFO  Processing buildTarget/compile
+2024.11.26 02:27:11 INFO  Processing buildTarget/compile
+2024.11.26 02:28:11 INFO  Processing buildTarget/compile
+2024.11.26 02:29:11 INFO  Processing buildTarget/compile
+2024.11.26 02:29:42 INFO  Processing buildTarget/compile
+2024.11.26 02:29:42 INFO  compiling root
+2024.11.26 02:29:42 INFO  time: compiled root in 6ms
+2024.11.26 02:29:42 INFO  compiling root-test
+2024.11.26 02:29:42 INFO  time: compiled root-test in 6ms
+2024.11.26 02:29:42 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:29:42 INFO  compiling root
+2024.11.26 02:29:42 INFO  time: compiled root in 20ms
+2024.11.26 02:29:42 INFO  compiling root-test
+2024.11.26 02:29:42 INFO  time: compiled root-test in 7ms
+2024.11.26 02:29:42 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:29:42 INFO  compiling root
+2024.11.26 02:29:42 INFO  time: compiled root in 11ms
+2024.11.26 02:29:42 INFO  compiling root-test
+2024.11.26 02:29:42 INFO  time: compiled root-test in 6ms
+2024.11.26 02:29:42 INFO  Processing buildTarget/compile
+2024.11.26 02:29:42 INFO  compiling root
+2024.11.26 02:29:42 INFO  time: compiled root in 13ms
+2024.11.26 02:29:42 INFO  compiling root-test
+2024.11.26 02:29:42 INFO  time: compiled root-test in 9ms
+2024.11.26 02:29:42 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:29:42 INFO  compiling root
+2024.11.26 02:29:42 INFO  time: compiled root in 5ms
+2024.11.26 02:29:42 INFO  compiling root-test
+2024.11.26 02:29:42 INFO  time: compiled root-test in 2ms
+2024.11.26 02:29:42 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:29:42 INFO  compiling root
+2024.11.26 02:29:42 INFO  time: compiled root in 11ms
+2024.11.26 02:29:42 INFO  compiling root-test
+2024.11.26 02:29:42 INFO  time: compiled root-test in 9ms
+2024.11.26 02:29:42 INFO  Processing buildTarget/compile
+2024.11.26 02:29:42 INFO  compiling root
+2024.11.26 02:29:42 INFO  time: compiled root in 5ms
+2024.11.26 02:29:42 INFO  compiling root-test
+2024.11.26 02:29:42 INFO  time: compiled root-test in 7ms
+2024.11.26 02:29:42 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:29:42 INFO  compiling root
+2024.11.26 02:29:42 INFO  time: compiled root in 1ms
+2024.11.26 02:29:42 INFO  compiling root-test
+2024.11.26 02:29:42 INFO  time: compiled root-test in 5ms
+2024.11.26 02:29:42 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:29:44 INFO  compiling root
+2024.11.26 02:29:44 INFO  time: compiled root in 13ms
+2024.11.26 02:29:44 INFO  compiling root-test
+2024.11.26 02:29:44 INFO  time: compiled root-test in 5ms
+2024.11.26 02:29:46 INFO  Processing buildTarget/compile
+2024.11.26 02:29:52 INFO  time: code lens generation in 5.42s
+2024.11.26 02:29:52 INFO  Processing buildTarget/jvmRunEnvironment
+2024.11.26 02:30:00 INFO  Processing buildTarget/compile
+2024.11.26 02:30:00 INFO  compiling root
+2024.11.26 02:30:00 INFO  time: compiled root in 17ms
+2024.11.26 02:30:00 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:30:00 INFO  compiling root
+2024.11.26 02:30:00 INFO  time: compiled root in 6ms
+2024.11.26 02:30:00 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:30:08 INFO  Processing buildTarget/compile
+2024.11.26 02:30:08 INFO  compiling root
+2024.11.26 02:30:08 INFO  time: compiled root in 16ms
+2024.11.26 02:30:08 INFO  compiling root-test
+2024.11.26 02:30:08 INFO  time: compiled root-test in 23ms
+2024.11.26 02:30:08 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:30:08 INFO  compiling root
+2024.11.26 02:30:08 INFO  time: compiled root in 22ms
+2024.11.26 02:30:08 INFO  compiling root-test
+2024.11.26 02:30:08 INFO  time: compiled root-test in 11ms
+2024.11.26 02:30:08 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:30:08 INFO  compiling root
+2024.11.26 02:30:08 INFO  time: compiled root in 6ms
+2024.11.26 02:30:08 INFO  compiling root-test
+2024.11.26 02:30:08 INFO  time: compiled root-test in 5ms
+2024.11.26 02:30:11 INFO  Processing buildTarget/compile
+2024.11.26 02:31:11 INFO  Processing buildTarget/compile
+2024.11.26 02:32:11 INFO  Processing buildTarget/compile
+2024.11.26 02:33:11 INFO  Processing buildTarget/compile
+2024.11.26 02:34:11 INFO  Processing buildTarget/compile
+2024.11.26 02:34:53 INFO  Processing buildTarget/compile
+2024.11.26 02:34:53 INFO  compiling root
+2024.11.26 02:34:53 INFO  time: compiled root in 1ms
+2024.11.26 02:34:53 INFO  compiling root-test
+2024.11.26 02:34:53 INFO  time: compiled root-test in 9ms
+2024.11.26 02:34:53 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:34:53 INFO  compiling root
+2024.11.26 02:34:53 INFO  time: compiled root in 12ms
+2024.11.26 02:34:53 INFO  compiling root-test
+2024.11.26 02:34:53 INFO  time: compiled root-test in 10ms
+2024.11.26 02:34:53 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:34:53 INFO  compiling root
+2024.11.26 02:34:53 INFO  time: compiled root in 5ms
+2024.11.26 02:34:53 INFO  compiling root-test
+2024.11.26 02:34:53 INFO  time: compiled root-test in 8ms
+2024.11.26 02:34:53 INFO  Processing buildTarget/compile
+2024.11.26 02:34:53 INFO  compiling root
+2024.11.26 02:34:53 INFO  time: compiled root in 4ms
+2024.11.26 02:34:53 INFO  compiling root-test
+2024.11.26 02:34:53 INFO  time: compiled root-test in 3ms
+2024.11.26 02:34:53 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:34:53 INFO  compiling root
+2024.11.26 02:34:53 INFO  time: compiled root in 6ms
+2024.11.26 02:34:53 INFO  compiling root-test
+2024.11.26 02:34:53 INFO  time: compiled root-test in 3ms
+2024.11.26 02:34:53 INFO  Processing buildTarget/compile
+2024.11.26 02:34:53 INFO  compiling root
+2024.11.26 02:34:53 INFO  time: compiled root in 6ms
+2024.11.26 02:34:53 INFO  compiling root-test
+2024.11.26 02:34:53 INFO  time: compiled root-test in 4ms
+2024.11.26 02:34:53 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:34:53 INFO  compiling root
+2024.11.26 02:34:53 INFO  time: compiled root in 7ms
+2024.11.26 02:34:53 INFO  compiling root-test
+2024.11.26 02:34:53 INFO  time: compiled root-test in 2ms
+2024.11.26 02:34:53 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:34:53 INFO  compiling root
+2024.11.26 02:34:53 INFO  time: compiled root in 4ms
+2024.11.26 02:34:53 INFO  compiling root-test
+2024.11.26 02:34:53 INFO  time: compiled root-test in 5ms
+2024.11.26 02:34:53 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:34:53 INFO  compiling root
+2024.11.26 02:34:53 INFO  time: compiled root in 3ms
+2024.11.26 02:34:53 INFO  compiling root-test
+2024.11.26 02:34:53 INFO  time: compiled root-test in 3ms
+2024.11.26 02:35:11 INFO  Processing buildTarget/compile
+2024.11.26 02:36:10 INFO  Processing buildTarget/compile
+2024.11.26 02:36:10 INFO  compiling root
+2024.11.26 02:36:10 INFO  time: compiled root in 24ms
+2024.11.26 02:36:10 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:36:10 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:36:10 INFO  compiling root
+2024.11.26 02:36:10 INFO  time: compiled root in 18ms
+2024.11.26 02:36:10 INFO  Processing buildTarget/compile
+2024.11.26 02:36:19 INFO  Processing buildTarget/compile
+2024.11.26 02:36:19 INFO  compiling root
+2024.11.26 02:36:19 INFO  time: compiled root in 11ms
+2024.11.26 02:36:19 INFO  compiling root-test
+2024.11.26 02:36:19 INFO  time: compiled root-test in 10ms
+2024.11.26 02:36:19 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:36:19 INFO  compiling root
+2024.11.26 02:36:19 INFO  time: compiled root in 18ms
+2024.11.26 02:36:19 INFO  compiling root-test
+2024.11.26 02:36:19 INFO  time: compiled root-test in 13ms
+2024.11.26 02:36:19 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:36:19 INFO  compiling root
+2024.11.26 02:36:19 INFO  time: compiled root in 1ms
+2024.11.26 02:36:19 INFO  compiling root-test
+2024.11.26 02:36:19 INFO  time: compiled root-test in 7ms
+2024.11.26 02:37:11 INFO  Processing buildTarget/compile
+2024.11.26 02:37:59 INFO  Processing buildTarget/compile
+2024.11.26 02:37:59 INFO  compiling root
+2024.11.26 02:37:59 INFO  time: compiled root in 7ms
+2024.11.26 02:37:59 INFO  compiling root-test
+2024.11.26 02:37:59 INFO  time: compiled root-test in 3ms
+2024.11.26 02:37:59 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:37:59 INFO  compiling root
+2024.11.26 02:37:59 INFO  time: compiled root in 12ms
+2024.11.26 02:37:59 INFO  compiling root-test
+2024.11.26 02:37:59 INFO  time: compiled root-test in 12ms
+2024.11.26 02:37:59 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:37:59 INFO  compiling root
+2024.11.26 02:37:59 INFO  time: compiled root in 2ms
+2024.11.26 02:37:59 INFO  compiling root-test
+2024.11.26 02:37:59 INFO  time: compiled root-test in 2ms
+2024.11.26 02:37:59 INFO  Processing buildTarget/compile
+2024.11.26 02:37:59 INFO  compiling root
+2024.11.26 02:37:59 INFO  time: compiled root in 3ms
+2024.11.26 02:37:59 INFO  compiling root-test
+2024.11.26 02:37:59 INFO  time: compiled root-test in 4ms
+2024.11.26 02:37:59 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:37:59 INFO  compiling root
+2024.11.26 02:37:59 INFO  time: compiled root in 4ms
+2024.11.26 02:37:59 INFO  compiling root-test
+2024.11.26 02:37:59 INFO  time: compiled root-test in 3ms
+2024.11.26 02:37:59 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:37:59 INFO  compiling root
+2024.11.26 02:37:59 INFO  time: compiled root in 5ms
+2024.11.26 02:37:59 INFO  compiling root-test
+2024.11.26 02:37:59 INFO  time: compiled root-test in 5ms
+2024.11.26 02:38:11 INFO  Processing buildTarget/compile
+2024.11.26 02:39:11 INFO  Processing buildTarget/compile
+2024.11.26 02:40:11 INFO  Processing buildTarget/compile
+2024.11.26 02:41:11 INFO  Processing buildTarget/compile
+2024.11.26 02:41:42 INFO  Processing buildTarget/compile
+2024.11.26 02:41:42 INFO  compiling root
+2024.11.26 02:41:42 INFO  time: compiled root in 12ms
+2024.11.26 02:41:42 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:41:42 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:41:42 INFO  compiling root
+2024.11.26 02:41:42 INFO  time: compiled root in 11ms
+Nov 26, 2024 2:41:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 259
+2024.11.26 02:41:48 INFO  Processing buildTarget/compile
+2024.11.26 02:41:48 INFO  compiling root
+2024.11.26 02:41:48 INFO  time: compiled root in 16ms
+2024.11.26 02:41:48 INFO  compiling root-test
+2024.11.26 02:41:48 INFO  time: compiled root-test in 17ms
+2024.11.26 02:41:48 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:41:48 INFO  compiling root
+2024.11.26 02:41:48 INFO  time: compiled root in 9ms
+2024.11.26 02:41:48 INFO  compiling root-test
+2024.11.26 02:41:48 INFO  time: compiled root-test in 4ms
+2024.11.26 02:41:48 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:41:48 INFO  compiling root
+2024.11.26 02:41:48 INFO  time: compiled root in 4ms
+2024.11.26 02:41:48 INFO  compiling root-test
+2024.11.26 02:41:48 INFO  time: compiled root-test in 4ms
+2024.11.26 02:42:11 INFO  Processing buildTarget/compile
+2024.11.26 02:43:11 INFO  Processing buildTarget/compile
+2024.11.26 02:44:11 INFO  Processing buildTarget/compile
+2024.11.26 02:45:11 INFO  Processing buildTarget/compile
+2024.11.26 02:45:24 INFO  Processing buildTarget/compile
+2024.11.26 02:45:24 INFO  compiling root
+2024.11.26 02:45:24 INFO  time: compiled root in 8ms
+2024.11.26 02:45:24 INFO  compiling root-test
+2024.11.26 02:45:24 INFO  time: compiled root-test in 4ms
+2024.11.26 02:45:24 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:45:24 INFO  compiling root
+2024.11.26 02:45:24 INFO  time: compiled root in 6ms
+2024.11.26 02:45:24 INFO  compiling root-test
+2024.11.26 02:45:24 INFO  time: compiled root-test in 9ms
+2024.11.26 02:45:24 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:45:24 INFO  compiling root
+2024.11.26 02:45:24 INFO  time: compiled root in 1ms
+2024.11.26 02:45:24 INFO  compiling root-test
+2024.11.26 02:45:24 INFO  time: compiled root-test in 3ms
+2024.11.26 02:45:24 INFO  Processing buildTarget/compile
+2024.11.26 02:45:24 INFO  compiling root
+2024.11.26 02:45:24 INFO  time: compiled root in 6ms
+2024.11.26 02:45:24 INFO  compiling root-test
+2024.11.26 02:45:24 INFO  time: compiled root-test in 3ms
+2024.11.26 02:45:24 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:45:24 INFO  compiling root
+2024.11.26 02:45:24 INFO  time: compiled root in 9ms
+2024.11.26 02:45:24 INFO  compiling root-test
+2024.11.26 02:45:24 INFO  time: compiled root-test in 6ms
+2024.11.26 02:45:24 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:45:24 INFO  compiling root
+2024.11.26 02:45:24 INFO  time: compiled root in 5ms
+2024.11.26 02:45:24 INFO  compiling root-test
+2024.11.26 02:45:24 INFO  time: compiled root-test in 7ms
+2024.11.26 02:45:24 INFO  Processing buildTarget/compile
+2024.11.26 02:45:24 INFO  compiling root
+2024.11.26 02:45:24 INFO  time: compiled root in 2ms
+2024.11.26 02:45:24 INFO  compiling root-test
+2024.11.26 02:45:24 INFO  time: compiled root-test in 4ms
+2024.11.26 02:45:24 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:45:24 INFO  compiling root
+2024.11.26 02:45:24 INFO  time: compiled root in 19ms
+2024.11.26 02:45:24 INFO  compiling root-test
+2024.11.26 02:45:24 INFO  time: compiled root-test in 12ms
+2024.11.26 02:45:24 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:45:24 INFO  compiling root
+2024.11.26 02:45:24 INFO  time: compiled root in 6ms
+2024.11.26 02:45:24 INFO  compiling root-test
+2024.11.26 02:45:24 INFO  time: compiled root-test in 5ms
+2024.11.26 02:45:52 INFO  Processing buildTarget/compile
+2024.11.26 02:45:52 INFO  compiling root
+2024.11.26 02:45:52 INFO  time: compiled root in 6ms
+2024.11.26 02:45:52 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:45:52 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:45:52 INFO  compiling root
+2024.11.26 02:45:52 INFO  time: compiled root in 7ms
+2024.11.26 02:46:03 INFO  Processing buildTarget/compile
+2024.11.26 02:46:03 INFO  compiling root
+2024.11.26 02:46:03 INFO  time: compiled root in 13ms
+2024.11.26 02:46:03 INFO  compiling root-test
+2024.11.26 02:46:03 INFO  time: compiled root-test in 1ms
+2024.11.26 02:46:03 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:46:03 INFO  compiling root
+2024.11.26 02:46:03 INFO  time: compiled root in 8ms
+2024.11.26 02:46:03 INFO  compiling root-test
+2024.11.26 02:46:03 INFO  time: compiled root-test in 8ms
+2024.11.26 02:46:03 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:46:03 INFO  compiling root
+2024.11.26 02:46:03 INFO  time: compiled root in 2ms
+2024.11.26 02:46:03 INFO  compiling root-test
+2024.11.26 02:46:03 INFO  time: compiled root-test in 4ms
+2024.11.26 02:46:11 INFO  Processing buildTarget/compile
+2024.11.26 02:47:11 INFO  Processing buildTarget/compile
+2024.11.26 02:48:11 INFO  Processing buildTarget/compile
+2024.11.26 02:48:59 INFO  Processing buildTarget/compile
+2024.11.26 02:48:59 INFO  compiling root
+2024.11.26 02:48:59 INFO  time: compiled root in 770μs
+2024.11.26 02:48:59 INFO  compiling root-test
+2024.11.26 02:48:59 INFO  time: compiled root-test in 887μs
+2024.11.26 02:48:59 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:48:59 INFO  compiling root
+2024.11.26 02:48:59 INFO  time: compiled root in 716μs
+2024.11.26 02:48:59 INFO  compiling root-test
+2024.11.26 02:48:59 INFO  time: compiled root-test in 638μs
+2024.11.26 02:48:59 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:48:59 INFO  compiling root
+2024.11.26 02:48:59 INFO  time: compiled root in 6ms
+2024.11.26 02:48:59 INFO  compiling root-test
+2024.11.26 02:48:59 INFO  time: compiled root-test in 3ms
+2024.11.26 02:48:59 INFO  Processing buildTarget/compile
+2024.11.26 02:48:59 INFO  compiling root
+2024.11.26 02:48:59 INFO  time: compiled root in 5ms
+2024.11.26 02:48:59 INFO  compiling root-test
+2024.11.26 02:48:59 INFO  time: compiled root-test in 1ms
+2024.11.26 02:48:59 INFO  Processing buildTarget/compile
+2024.11.26 02:48:59 INFO  compiling root
+2024.11.26 02:48:59 INFO  time: compiled root in 11ms
+2024.11.26 02:48:59 INFO  compiling root-test
+2024.11.26 02:48:59 INFO  time: compiled root-test in 9ms
+2024.11.26 02:48:59 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:48:59 INFO  compiling root
+2024.11.26 02:48:59 INFO  time: compiled root in 3ms
+2024.11.26 02:48:59 INFO  compiling root-test
+2024.11.26 02:48:59 INFO  time: compiled root-test in 4ms
+2024.11.26 02:48:59 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:48:59 INFO  compiling root
+2024.11.26 02:48:59 INFO  time: compiled root in 4ms
+2024.11.26 02:48:59 INFO  compiling root-test
+2024.11.26 02:48:59 INFO  time: compiled root-test in 4ms
+2024.11.26 02:48:59 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:48:59 INFO  compiling root
+2024.11.26 02:48:59 INFO  time: compiled root in 7ms
+2024.11.26 02:48:59 INFO  compiling root-test
+2024.11.26 02:48:59 INFO  time: compiled root-test in 4ms
+2024.11.26 02:48:59 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:48:59 INFO  compiling root
+2024.11.26 02:48:59 INFO  time: compiled root in 4ms
+2024.11.26 02:48:59 INFO  compiling root-test
+2024.11.26 02:48:59 INFO  time: compiled root-test in 5ms
+2024.11.26 02:49:11 INFO  Processing buildTarget/compile
+2024.11.26 02:49:26 INFO  Processing buildTarget/compile
+2024.11.26 02:49:26 INFO  compiling root
+2024.11.26 02:49:26 INFO  time: compiled root in 2ms
+2024.11.26 02:49:26 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:49:26 INFO  compiling root
+2024.11.26 02:49:26 INFO  time: compiled root in 7ms
+2024.11.26 02:49:26 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:49:32 INFO  Processing buildTarget/compile
+2024.11.26 02:49:32 INFO  compiling root
+2024.11.26 02:49:32 INFO  time: compiled root in 7ms
+2024.11.26 02:49:32 INFO  compiling root-test
+2024.11.26 02:49:32 INFO  time: compiled root-test in 10ms
+2024.11.26 02:49:32 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:49:32 INFO  compiling root
+2024.11.26 02:49:32 INFO  time: compiled root in 8ms
+2024.11.26 02:49:32 INFO  compiling root-test
+2024.11.26 02:49:32 INFO  time: compiled root-test in 3ms
+2024.11.26 02:49:32 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:49:32 INFO  compiling root
+2024.11.26 02:49:32 INFO  time: compiled root in 10ms
+2024.11.26 02:49:32 INFO  compiling root-test
+2024.11.26 02:49:32 INFO  time: compiled root-test in 3ms
+2024.11.26 02:50:11 INFO  Processing buildTarget/compile
+2024.11.26 02:51:11 INFO  Processing buildTarget/compile
+2024.11.26 02:52:11 INFO  Processing buildTarget/compile
+2024.11.26 02:53:11 INFO  Processing buildTarget/compile
+2024.11.26 02:54:11 INFO  Processing buildTarget/compile
+2024.11.26 02:54:35 INFO  Processing buildTarget/compile
+2024.11.26 02:54:35 INFO  compiling root
+2024.11.26 02:54:35 INFO  time: compiled root in 899μs
+2024.11.26 02:54:35 INFO  compiling root-test
+2024.11.26 02:54:35 INFO  time: compiled root-test in 5ms
+2024.11.26 02:54:35 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:54:35 INFO  compiling root
+2024.11.26 02:54:35 INFO  time: compiled root in 2ms
+2024.11.26 02:54:35 INFO  compiling root-test
+2024.11.26 02:54:35 INFO  time: compiled root-test in 5ms
+2024.11.26 02:54:35 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:54:35 INFO  compiling root
+2024.11.26 02:54:35 INFO  time: compiled root in 7ms
+2024.11.26 02:54:35 INFO  compiling root-test
+2024.11.26 02:54:35 INFO  time: compiled root-test in 4ms
+2024.11.26 02:54:35 INFO  Processing buildTarget/compile
+2024.11.26 02:54:35 INFO  compiling root
+2024.11.26 02:54:35 INFO  time: compiled root in 2ms
+2024.11.26 02:54:35 INFO  compiling root-test
+2024.11.26 02:54:35 INFO  time: compiled root-test in 3ms
+2024.11.26 02:54:35 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:54:35 INFO  compiling root
+2024.11.26 02:54:35 INFO  time: compiled root in 2ms
+2024.11.26 02:54:35 INFO  compiling root-test
+2024.11.26 02:54:35 INFO  time: compiled root-test in 4ms
+2024.11.26 02:54:35 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:54:35 INFO  compiling root
+2024.11.26 02:54:35 INFO  time: compiled root in 3ms
+2024.11.26 02:54:35 INFO  compiling root-test
+2024.11.26 02:54:35 INFO  time: compiled root-test in 4ms
+2024.11.26 02:54:35 INFO  Processing buildTarget/compile
+2024.11.26 02:54:35 INFO  compiling root
+2024.11.26 02:54:35 INFO  time: compiled root in 3ms
+2024.11.26 02:54:35 INFO  compiling root-test
+2024.11.26 02:54:35 INFO  time: compiled root-test in 4ms
+2024.11.26 02:54:35 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 02:54:35 INFO  compiling root
+2024.11.26 02:54:35 INFO  time: compiled root in 8ms
+2024.11.26 02:54:35 INFO  compiling root-test
+2024.11.26 02:54:35 INFO  time: compiled root-test in 4ms
+2024.11.26 02:54:35 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 02:54:35 INFO  compiling root
+2024.11.26 02:54:35 INFO  time: compiled root in 15ms
+2024.11.26 02:54:35 INFO  compiling root-test
+2024.11.26 02:54:35 INFO  time: compiled root-test in 16ms
+2024.11.26 02:54:48 INFO  Processing buildTarget/compile
+2024.11.26 02:54:48 INFO  Processing buildTarget/jvmRunEnvironment

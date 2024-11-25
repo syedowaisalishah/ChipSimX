@@ -1,5 +1,5 @@
 $date
-2024-11-04T21:01+0000
+2024-11-25T21:49+0000
 $end
 $version
 0.2
@@ -9,33 +9,33 @@ $comment
 $end
 $timescale 1ns  $end
 $scope module andgates $end
- $var wire 2 ! io_OR $end
- $var wire 2 " io_b $end
- $var wire 2 # io_a $end
- $var wire 1 $ reset $end
+ $var wire 2 ! io_b $end
+ $var wire 2 " io_a $end
+ $var wire 1 # reset $end
+ $var wire 2 $ io_and $end
  $var wire 1 % clock $end
 $upscope $end
 $enddefinitions $end
 $dumpvars
-0$
+0#
 0%
 b00 !
-b00 #
+b00 $
 b00 "
 $end
 #0
-1$
+1#
 #1
 1%
 #6
 b01 !
 b01 "
-b01 #
-0$
+0#
+b01 $
 0%
 #11
 1%
 #16
+b00 !
 b00 "
-b00 #
 0%
