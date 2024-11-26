@@ -1,10 +1,10 @@
-[debug] Running TaskDef(myproject.gates.andgatestest, org.scalatest.tools.Framework$$anon$1@74098c7f, false, [SuiteSelector])
-[info] andgatestest:
-[info] - andGates Test
-[info] Run completed in 2 seconds, 651 milliseconds.
+[debug] Running TaskDef(riscv.controltest, org.scalatest.tools.Framework$$anon$1@1ee9c7b4, false, [SuiteSelector])
+[info] controltest:
+[info] - control testing
+[info] Run completed in 3 seconds, 518 milliseconds.
 [info] Total number of tests run: 1
 [info] Suites: completed 1, aborted 0
 [info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [debug] Passed tests:
-[debug] 	myproject.gates.andgatestest
+[debug] 	riscv.controltest

@@ -47,6 +47,10 @@ st.title("Chisel Code Compiler")
 main_code = st.text_area("Main Code", height=200)
 test_code = st.text_area("Test Code", height=200)
 
+# Check if the VCD file has been generated previously
+if 'vcd_file_path' not in st.session_state:
+    st.session_state.vcd_file_path = None
+
 if st.button("Compile and Generate VCD"):
     # Extract module and package names from both files
     main_module_name, main_package_name = extract_names(main_code)
@@ -89,19 +93,8 @@ if st.button("Compile and Generate VCD"):
                     vcd_file_path = find_vcd_file(test_run_dir)
 
                     if vcd_file_path:
-                        # Add a download button for the VCD file
-                        with open(vcd_file_path, "rb") as file:
-                            st.download_button(
-                                label="Download VCD File",
-                                data=file,
-                                file_name=os.path.basename(vcd_file_path),
-                                mime="application/octet-stream",
-                            )
-
-                        # Provide a link to vcdrom with a manual upload instruction
-                        st.markdown(
-                            f"[Open vcdrom](https://vc.drom.io/) and upload the generated VCD file."
-                        )
+                        # Save the VCD file path to session state
+                        st.session_state.vcd_file_path = vcd_file_path
                     else:
                         st.error("VCD file not found in the test_run_dir.")
                 else:
@@ -109,3 +102,21 @@ if st.button("Compile and Generate VCD"):
 
             except Exception as e:
                 st.error(f"Failed to run sbt: {str(e)}")
+
+# If the VCD file path exists in the session state, display the download button and vcdrom link
+if st.session_state.vcd_file_path:
+    vcd_file_path = st.session_state.vcd_file_path
+
+    # Provide the option to download the VCD file
+    with open(vcd_file_path, "rb") as file:
+        st.download_button(
+            label="Download VCD File",
+            data=file,
+            file_name=os.path.basename(vcd_file_path),
+            mime="application/octet-stream",
+        )
+
+    # Provide a link to vcdrom with a manual upload instruction
+    st.markdown(
+        f"[Open vcdrom](https://vc.drom.io/) and upload the generated VCD file."
+    )

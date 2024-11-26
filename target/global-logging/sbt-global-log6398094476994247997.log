@@ -1,0 +1,19 @@
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(sbtMapExec 129 __94d4c9e6-b5c2-4a8d-a7ba-d32e6d0c654c, None, None)
+[debug] > Exec(bspScalaTestClasses file:/home/syedowais/ChipSimX/#root/Test, Some(__94d4c9e6-b5c2-4a8d-a7ba-d32e6d0c654c), Some(CommandSource(network-1)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing buildTarget/scalaTestClasses"})
+[debug] Evaluating tasks: bspScalaTestClasses
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"157","parents":[]},"eventTime":1732654460605,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/home/syedowais/ChipSimX/#root/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"157","parents":[]},"eventTime":1732654460611,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/syedowais/ChipSimX/#root/Compile"},"errors":0,"warnings":0,"time":6,"noOp":true}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"158","parents":[]},"eventTime":1732654460621,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/home/syedowais/ChipSimX/#root/Test"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/syedowais/ChipSimX/src/test/scala/controltest.scala"},"buildTarget":{"uri":"file:/home/syedowais/ChipSimX/#root/Test"},"diagnostics":[{"range":{"start":{"line":5,"character":26},"end":{"line":5,"character":34}},"severity":2,"source":"sbt","message":"type FreeSpec in package scalatest is deprecated (since 3.1.0): The org.scalatest.FreeSpec trait has been moved and renamed. Please use org.scalatest.freespec.AnyFreeSpec instead. This can be rewritten automatically with autofix: https://github.com/scalatest/autofix/tree/master/3.1.x","relatedInformation":[]}],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"158","parents":[]},"eventTime":1732654460630,"message":"Compiled root-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/syedowais/ChipSimX/#root/Test"},"errors":0,"warnings":1,"time":9,"noOp":true}})
+[success] Total time: 0 s, completed Nov 27, 2024, 1:54:20 AM
+[debug] > Exec(sbtCompleteExec 129, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(sbtReportResult 129, Some(129), Some(CommandSource(network-1)))
+[debug] unmatched Processing event for requestId Some(129): None
+[debug] unmatched json response for requestId Some(129): {"status":"Done","channelName":"network-1","execId":"129","commandQueue":["shell"],"exitCode":0}
+[debug] > Exec(shell, None, None)

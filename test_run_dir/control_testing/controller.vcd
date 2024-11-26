@@ -1,0 +1,52 @@
+$date
+2024-11-26T20:48+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module controller $end
+ $var wire 1 ! io_branch $end
+ $var wire 4 " io_opA $end
+ $var wire 4 # io_extendsel $end
+ $var wire 2 $ io_opB $end
+ $var wire 1 % io_memwrite $end
+ $var wire 1 & io_memread $end
+ $var wire 7 ' io_in $end
+ $var wire 4 ( io_nextpcsel $end
+ $var wire 1 ) io_memtoreg $end
+ $var wire 1 * clock $end
+ $var wire 1 + reset $end
+ $var wire 3 , io_aluop $end
+ $var wire 1 - io_regwrite $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b0000 "
+b0000 #
+b0000 (
+b0000000 '
+b000 ,
+0!
+0%
+0&
+0)
+0*
+0+
+0-
+b00 $
+$end
+#0
+1+
+#1
+1*
+#6
+b01 $
+b0000000 '
+0*
+0+
+b001 ,
+1-

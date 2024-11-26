@@ -1,4 +1,22 @@
-[error] /home/syedowais/ChipSimX/src/main/scala/xorgates.scala:12:6: value xOR is not a member of chisel3.Bundle{val a: chisel3.UInt; val b: chisel3.UInt; val OR: chisel3.UInt}
-[error]   io.xOR := io.a  ^  io.b
-[error]      ^
-[error] one error found
+[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:3:12: object scalatest is not a member of package org
+[error] import org.scalatest._
+[error]            ^
+[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:4:8: not found: object chiseltest
+[error] import chiseltest._
+[error]        ^
+[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:6:27: not found: type FreeSpec
+[error] class controltest extends FreeSpec with ChiselScalatestTester{
+[error]                           ^
+[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:6:41: not found: type ChiselScalatestTester
+[error] class controltest extends FreeSpec with ChiselScalatestTester{
+[error]                                         ^
+[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:7:23: value in is not a member of String
+[error]     "control testing" in {
+[error]                       ^
+[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:8:9: not found: value test
+[error]         test(new controller()){c=>
+[error]         ^
+[error] /home/syedowais/ChipSimX/src/main/scala/andgates.scala:8:18: not found: type controller
+[error]         test(new controller()){c=>
+[error]                  ^
+[error] 7 errors found

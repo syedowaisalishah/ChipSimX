@@ -8561,3 +8561,591 @@ WARNING: Unmatched cancel notification for request id 259
 2024.11.26 02:54:35 INFO  time: compiled root-test in 16ms
 2024.11.26 02:54:48 INFO  Processing buildTarget/compile
 2024.11.26 02:54:48 INFO  Processing buildTarget/jvmRunEnvironment
+2024.11.26 02:55:11 INFO  Processing buildTarget/compile
+2024.11.26 02:56:11 INFO  Processing buildTarget/compile
+2024.11.26 20:29:45 INFO  Started: Metals version 1.4.1 in folders '/home/syedowais/ChipSimX' for client Visual Studio Code 1.95.3.
+2024.11.26 20:29:47 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.26 20:29:48 INFO  Attempting to connect to the build server...
+2024.11.26 20:29:47 INFO  Running BSP server List(/home/syedowais/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java, -Xms100m, -Xmx100m, -classpath, /home/syedowais/.cache/sbt/boot/sbt-launch/1.10.5/sbt-launch-1.10.5.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)
+2024.11.26 20:29:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/syedowais/ChipSimX/.metals/bsp.trace.json or /home/syedowais/.cache/metals/bsp.trace.json
+2024.11.26 20:29:54 INFO  BSP server: [info] server was not detected. starting an instance
+2024.11.26 20:29:56 INFO  BSP server: [info] welcome to sbt 1.10.4 (Eclipse Adoptium Java 17)
+2024.11.26 20:29:57 INFO  BSP server: [info] loading settings for project chipsimx-build-build from metals.sbt ...
+2024.11.26 20:29:57 INFO  BSP server: [info] loading project definition from /home/syedowais/ChipSimX/project/project
+2024.11.26 20:30:01 INFO  BSP server: [info] loading settings for project chipsimx-build from metals.sbt ...
+2024.11.26 20:30:01 INFO  BSP server: [info] loading project definition from /home/syedowais/ChipSimX/project
+2024.11.26 20:30:02 INFO  BSP server: [info] loading settings for project root from build.sbt ...
+2024.11.26 20:30:02 INFO  BSP server: [info] set current project to magmasi (in build file:/home/syedowais/ChipSimX/)
+2024.11.26 20:30:02 INFO  BSP server: [info] sbt server started at local:///home/syedowais/.sbt/1.0/server/e433ea5cbc6df0d48df5/sock
+2024.11.26 20:30:03 INFO  time: Connected to build server in 14s
+2024.11.26 20:30:03 INFO  Connected to Build server: sbt v1.10.4
+2024.11.26 20:30:03 INFO  Processing workspace/buildTargets
+2024.11.26 20:30:03 INFO  Processing buildTarget/scalacOptions
+2024.11.26 20:30:03 INFO  Processing buildTarget/sources
+2024.11.26 20:30:04 INFO  Processing buildTarget/dependencySources
+2024.11.26 20:30:06 INFO  time: Imported build in 3.73s
+2024.11.26 20:30:06 INFO  running doctor check
+2024.11.26 20:30:06 INFO  java targets: 
+2024.11.26 20:30:06 WARN  2.13.8 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2024.11.26 20:30:13 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.26 20:30:15 INFO  time: indexed workspace in 8.91s
+2024.11.26 20:30:15 INFO  Processing buildTarget/scalaMainClasses
+2024.11.26 20:30:15 INFO  compiling root
+2024.11.26 20:30:15 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.26 20:30:21 INFO  done compiling
+2024.11.26 20:30:21 INFO  time: compiled root in 5.39s
+2024.11.26 20:30:21 INFO  compiling root-test
+2024.11.26 20:30:21 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/test-classes ...
+2024.11.26 20:30:23 INFO  done compiling
+2024.11.26 20:30:23 INFO  time: compiled root-test in 1.71s
+2024.11.26 20:30:23 INFO  Processing buildTarget/scalaTestClasses
+2024.11.26 20:30:23 INFO  compiling root
+2024.11.26 20:30:23 INFO  time: compiled root in 10ms
+2024.11.26 20:30:23 INFO  compiling root-test
+2024.11.26 20:30:23 INFO  time: compiled root-test in 2ms
+2024.11.26 20:31:03 INFO  Processing buildTarget/compile
+2024.11.26 20:32:03 INFO  Processing buildTarget/compile
+2024.11.26 20:33:03 INFO  Processing buildTarget/compile
+2024.11.26 20:34:03 INFO  Processing buildTarget/compile
+2024.11.26 20:35:03 INFO  Processing buildTarget/compile
+2024.11.26 20:36:03 INFO  Processing buildTarget/compile
+2024.11.26 20:37:03 INFO  Processing buildTarget/compile
+2024.11.26 20:38:03 INFO  Processing buildTarget/compile
+2024.11.26 20:39:03 INFO  Processing buildTarget/compile
+2024.11.26 20:40:03 INFO  Processing buildTarget/compile
+2024.11.27 01:13:37 INFO  Processing buildTarget/compile
+2024.11.27 01:13:37 INFO  compiling root
+2024.11.27 01:13:38 INFO  time: compiled root in 1.27s
+2024.11.27 01:13:38 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:13:38 INFO  compiling root
+2024.11.27 01:13:38 INFO  time: compiled root in 15ms
+2024.11.27 01:13:38 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:13:44 INFO  Processing buildTarget/jvmRunEnvironment
+2024.11.27 01:13:44 INFO  compiling root
+2024.11.27 01:13:44 INFO  time: compiled root in 10ms
+2024.11.27 01:14:03 INFO  Processing buildTarget/compile
+2024.11.27 01:14:29 INFO  Processing buildTarget/compile
+2024.11.27 01:14:29 INFO  compiling root
+2024.11.27 01:14:29 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.27 01:14:29 INFO  done compiling
+2024.11.27 01:14:29 INFO  time: compiled root in 0.93s
+2024.11.27 01:14:30 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:14:30 INFO  compiling root
+2024.11.27 01:14:30 INFO  time: compiled root in 1ms
+2024.11.27 01:14:30 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:14:30 INFO  Processing buildTarget/compile
+2024.11.27 01:14:30 INFO  compiling root
+2024.11.27 01:14:30 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.27 01:14:31 WARN  Could not load snapshot text for /home/syedowais/ChipSimX/src/main/scala/andgates.scala
+2024.11.27 01:14:31 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:3:12: object scalatest is not a member of package org
+2024.11.27 01:14:31 ERROR import org.scalatest._
+2024.11.27 01:14:31 ERROR ^
+2024.11.27 01:14:31 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:4:8: not found: object chiseltest
+2024.11.27 01:14:31 ERROR import chiseltest._
+2024.11.27 01:14:31 ERROR ^
+2024.11.27 01:14:31 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:6:27: not found: type FreeSpec
+2024.11.27 01:14:31 ERROR class controltest extends FreeSpec with ChiselScalatestTester{
+2024.11.27 01:14:31 ERROR ^
+2024.11.27 01:14:31 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:6:41: not found: type ChiselScalatestTester
+2024.11.27 01:14:31 ERROR class controltest extends FreeSpec with ChiselScalatestTester{
+2024.11.27 01:14:31 ERROR ^
+2024.11.27 01:14:31 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:7:23: value in is not a member of String
+2024.11.27 01:14:31 ERROR "control testing" in {
+2024.11.27 01:14:31 ERROR ^
+2024.11.27 01:14:31 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:8:9: not found: value test
+2024.11.27 01:14:31 ERROR test(new controller()){c=>
+2024.11.27 01:14:31 ERROR ^
+2024.11.27 01:14:31 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:8:18: not found: type controller
+2024.11.27 01:14:31 ERROR test(new controller()){c=>
+2024.11.27 01:14:31 ERROR ^
+2024.11.27 01:14:31 ERROR 7 errors found
+2024.11.27 01:14:31 INFO  time: compiled root in 0.89s
+2024.11.27 01:14:31 ERROR (Compile / compileIncremental) Compilation failed
+2024.11.27 01:14:31 INFO  Cancelling compilation on sbt server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental) Compilation failed
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.27 01:14:31 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:14:31 INFO  compiling root
+2024.11.27 01:14:31 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.27 01:14:32 WARN  Could not load snapshot text for /home/syedowais/ChipSimX/src/main/scala/andgates.scala
+2024.11.27 01:14:31 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:3:12: object scalatest is not a member of package org
+2024.11.27 01:14:31 ERROR import org.scalatest._
+2024.11.27 01:14:31 ERROR ^
+2024.11.27 01:14:31 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:4:8: not found: object chiseltest
+2024.11.27 01:14:31 ERROR import chiseltest._
+2024.11.27 01:14:31 ERROR ^
+2024.11.27 01:14:31 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:6:27: not found: type FreeSpec
+2024.11.27 01:14:31 ERROR class controltest extends FreeSpec with ChiselScalatestTester{
+2024.11.27 01:14:31 ERROR ^
+2024.11.27 01:14:31 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:6:41: not found: type ChiselScalatestTester
+2024.11.27 01:14:31 ERROR class controltest extends FreeSpec with ChiselScalatestTester{
+2024.11.27 01:14:31 ERROR ^
+2024.11.27 01:14:32 WARN  Could not load snapshot text for /home/syedowais/ChipSimX/src/main/scala/andgates.scala
+2024.11.27 01:14:32 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:7:23: value in is not a member of String
+2024.11.27 01:14:32 ERROR "control testing" in {
+2024.11.27 01:14:32 ERROR ^
+2024.11.27 01:14:32 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:8:9: not found: value test
+2024.11.27 01:14:32 ERROR test(new controller()){c=>
+2024.11.27 01:14:32 ERROR ^
+2024.11.27 01:14:32 ERROR /home/syedowais/ChipSimX/src/main/scala/andgates.scala:8:18: not found: type controller
+2024.11.27 01:14:32 ERROR test(new controller()){c=>
+2024.11.27 01:14:32 ERROR ^
+2024.11.27 01:14:32 ERROR 7 errors found
+2024.11.27 01:14:32 INFO  time: compiled root in 1.32s
+2024.11.27 01:14:33 INFO  Scala main classes not supported by server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: (Compile / compileIncremental) Compilation failed
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.27 01:14:32 ERROR (Compile / compileIncremental) Compilation failed
+2024.11.27 01:14:32 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:14:32 INFO  Processing buildTarget/compile
+2024.11.27 01:14:32 INFO  compiling root
+2024.11.27 01:14:32 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.27 01:14:38 INFO  done compiling
+2024.11.27 01:14:38 WARN  Invalid text document uri received from build server: file:///home/syedowais/ChipSimX/src/main/scala/andgates.scala
+2024.11.27 01:14:38 INFO  time: compiled root in 4.71s
+2024.11.27 01:14:38 INFO  compiling root-test
+2024.11.27 01:14:38 INFO  time: compiled root-test in 38ms
+2024.11.27 01:14:38 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:14:38 INFO  compiling root
+2024.11.27 01:14:38 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.27 01:14:47 INFO  done compiling
+2024.11.27 01:14:47 INFO  time: compiled root in 8.61s
+2024.11.27 01:14:47 INFO  compiling root-test
+2024.11.27 01:14:47 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/test-classes ...
+2024.11.27 01:14:49 WARN  /home/syedowais/ChipSimX/src/test/scala/controltest.scala:6:27: type FreeSpec in package scalatest is deprecated (since 3.1.0): The org.scalatest.FreeSpec trait has been moved and renamed. Please use org.scalatest.freespec.AnyFreeSpec instead. This can be rewritten automatically with autofix: https://github.com/scalatest/autofix/tree/master/3.1.x
+2024.11.27 01:14:49 WARN  class controltest extends FreeSpec with ChiselScalatestTester{
+2024.11.27 01:14:49 WARN  ^
+2024.11.27 01:14:49 WARN  one warning found
+2024.11.27 01:14:49 INFO  done compiling
+2024.11.27 01:14:49 INFO  time: compiled root-test in 2.73s
+2024.11.27 01:14:50 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:14:50 INFO  compiling root
+2024.11.27 01:14:50 INFO  time: compiled root in 22ms
+2024.11.27 01:14:50 INFO  compiling root-test
+2024.11.27 01:14:50 INFO  time: compiled root-test in 7ms
+2024.11.27 01:14:55 INFO  Processing buildTarget/compile
+2024.11.27 01:14:55 INFO  compiling root
+2024.11.27 01:14:55 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/classes ...
+2024.11.27 01:15:03 INFO  done compiling
+2024.11.27 01:15:03 INFO  time: compiled root in 7.74s
+2024.11.27 01:15:03 INFO  compiling root-test
+2024.11.27 01:15:03 INFO  time: compiled root-test in 34ms
+2024.11.27 01:15:03 INFO  Processing buildTarget/jvmRunEnvironment
+2024.11.27 01:15:03 INFO  compiling root
+2024.11.27 01:15:03 INFO  time: compiled root in 12ms
+2024.11.27 01:15:03 INFO  compiling root-test
+2024.11.27 01:15:03 INFO  time: compiled root-test in 26ms
+2024.11.27 01:15:03 INFO  Processing buildTarget/compile
+2024.11.27 01:15:03 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:15:03 INFO  compiling root
+2024.11.27 01:15:03 INFO  time: compiled root in 7ms
+2024.11.27 01:15:03 INFO  compiling root-test
+2024.11.27 01:15:03 INFO  time: compiled root-test in 19ms
+2024.11.27 01:15:04 INFO  Processing buildTarget/compile
+2024.11.27 01:15:04 INFO  compiling root
+2024.11.27 01:15:04 INFO  time: compiled root in 8ms
+2024.11.27 01:15:04 INFO  compiling root-test
+2024.11.27 01:15:04 INFO  time: compiled root-test in 15ms
+2024.11.27 01:15:04 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:15:04 INFO  compiling root
+2024.11.27 01:15:04 INFO  time: compiled root in 9ms
+2024.11.27 01:15:04 INFO  compiling root-test
+2024.11.27 01:15:04 INFO  time: compiled root-test in 7ms
+2024.11.27 01:15:04 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:15:04 INFO  compiling root
+2024.11.27 01:15:04 INFO  time: compiled root in 27ms
+2024.11.27 01:15:04 INFO  compiling root-test
+2024.11.27 01:15:04 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/test-classes ...
+2024.11.27 01:15:07 WARN  /home/syedowais/ChipSimX/src/test/scala/controltest.scala:6:27: type FreeSpec in package scalatest is deprecated (since 3.1.0): The org.scalatest.FreeSpec trait has been moved and renamed. Please use org.scalatest.freespec.AnyFreeSpec instead. This can be rewritten automatically with autofix: https://github.com/scalatest/autofix/tree/master/3.1.x
+2024.11.27 01:15:07 WARN  class controltest extends FreeSpec with ChiselScalatestTester{
+2024.11.27 01:15:07 WARN  ^
+2024.11.27 01:15:07 WARN  one warning found
+2024.11.27 01:15:07 INFO  done compiling
+2024.11.27 01:15:07 INFO  time: compiled root-test in 3.48s
+2024.11.27 01:15:08 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:15:08 INFO  compiling root
+2024.11.27 01:15:08 INFO  time: compiled root in 14ms
+2024.11.27 01:15:08 INFO  compiling root-test
+2024.11.27 01:15:08 INFO  time: compiled root-test in 26ms
+2024.11.27 01:15:33 INFO  Processing buildTarget/compile
+2024.11.27 01:15:33 INFO  compiling root
+2024.11.27 01:15:33 INFO  time: compiled root in 24ms
+2024.11.27 01:15:33 INFO  compiling root-test
+2024.11.27 01:15:33 INFO  time: compiled root-test in 0.1s
+2024.11.27 01:15:33 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:15:33 INFO  compiling root
+2024.11.27 01:15:33 INFO  time: compiled root in 17ms
+2024.11.27 01:15:33 INFO  compiling root-test
+2024.11.27 01:15:33 INFO  time: compiled root-test in 34ms
+2024.11.27 01:15:34 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:15:34 INFO  compiling root
+2024.11.27 01:15:34 INFO  time: compiled root in 27ms
+2024.11.27 01:15:34 INFO  compiling root-test
+2024.11.27 01:15:34 INFO  time: compiled root-test in 26ms
+2024.11.27 01:15:34 INFO  Processing buildTarget/compile
+2024.11.27 01:15:34 INFO  compiling root
+2024.11.27 01:15:34 INFO  time: compiled root in 27ms
+2024.11.27 01:15:34 INFO  compiling root-test
+2024.11.27 01:15:34 INFO  time: compiled root-test in 17ms
+2024.11.27 01:15:34 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:15:34 INFO  compiling root
+2024.11.27 01:15:34 INFO  time: compiled root in 29ms
+2024.11.27 01:15:34 INFO  compiling root-test
+2024.11.27 01:15:34 INFO  time: compiled root-test in 35ms
+2024.11.27 01:15:35 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:15:35 INFO  compiling root
+2024.11.27 01:15:35 INFO  time: compiled root in 30ms
+2024.11.27 01:15:35 INFO  compiling root-test
+2024.11.27 01:15:35 INFO  time: compiled root-test in 25ms
+2024.11.27 01:15:35 INFO  Processing buildTarget/compile
+2024.11.27 01:15:35 INFO  compiling root
+2024.11.27 01:15:35 INFO  time: compiled root in 25ms
+2024.11.27 01:15:35 INFO  compiling root-test
+2024.11.27 01:15:35 INFO  time: compiled root-test in 29ms
+2024.11.27 01:15:35 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:15:35 INFO  compiling root
+2024.11.27 01:15:35 INFO  time: compiled root in 23ms
+2024.11.27 01:15:36 INFO  compiling root-test
+2024.11.27 01:15:36 INFO  time: compiled root-test in 10ms
+2024.11.27 01:15:36 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:15:36 INFO  compiling root
+2024.11.27 01:15:36 INFO  time: compiled root in 17ms
+2024.11.27 01:15:36 INFO  compiling root-test
+2024.11.27 01:15:36 INFO  time: compiled root-test in 29ms
+2024.11.27 01:15:36 INFO  Processing buildTarget/compile
+2024.11.27 01:15:36 INFO  compiling root
+2024.11.27 01:15:36 INFO  time: compiled root in 13ms
+2024.11.27 01:15:36 INFO  compiling root-test
+2024.11.27 01:15:36 INFO  time: compiled root-test in 33ms
+2024.11.27 01:15:36 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:15:36 INFO  compiling root
+2024.11.27 01:15:36 INFO  time: compiled root in 20ms
+2024.11.27 01:15:36 INFO  compiling root-test
+2024.11.27 01:15:37 INFO  time: compiled root-test in 21ms
+2024.11.27 01:15:37 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:15:37 INFO  compiling root
+2024.11.27 01:15:37 INFO  time: compiled root in 17ms
+2024.11.27 01:15:37 INFO  compiling root-test
+2024.11.27 01:15:37 INFO  time: compiled root-test in 18ms
+2024.11.27 01:16:03 INFO  Processing buildTarget/compile
+2024.11.27 01:17:03 INFO  Processing buildTarget/compile
+2024.11.27 01:18:03 INFO  Processing buildTarget/compile
+2024.11.27 01:19:03 INFO  Processing buildTarget/compile
+2024.11.27 01:20:03 INFO  Processing buildTarget/compile
+2024.11.27 01:21:03 INFO  Processing buildTarget/compile
+2024.11.27 01:22:03 INFO  Processing buildTarget/compile
+2024.11.27 01:23:03 INFO  Processing buildTarget/compile
+2024.11.27 01:24:03 INFO  Processing buildTarget/compile
+2024.11.27 01:25:03 INFO  Processing buildTarget/compile
+2024.11.27 01:37:05 INFO  Processing buildTarget/compile
+2024.11.27 01:37:05 INFO  compiling root
+2024.11.27 01:37:05 INFO  time: compiled root in 36ms
+2024.11.27 01:37:05 INFO  compiling root-test
+2024.11.27 01:37:05 INFO  time: compiled root-test in 48ms
+2024.11.27 01:37:05 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:37:05 INFO  compiling root
+2024.11.27 01:37:05 INFO  time: compiled root in 10ms
+2024.11.27 01:37:05 INFO  compiling root-test
+2024.11.27 01:37:05 INFO  time: compiled root-test in 17ms
+2024.11.27 01:37:05 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:37:06 INFO  compiling root
+2024.11.27 01:37:06 INFO  time: compiled root in 52ms
+2024.11.27 01:37:06 INFO  compiling root-test
+2024.11.27 01:37:06 INFO  time: compiled root-test in 18ms
+2024.11.27 01:37:32 INFO  Processing buildTarget/compile
+2024.11.27 01:37:32 INFO  compiling root
+2024.11.27 01:37:32 INFO  time: compiled root in 36ms
+2024.11.27 01:37:32 INFO  compiling root-test
+2024.11.27 01:37:32 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/test-classes ...
+2024.11.27 01:37:32 INFO  done compiling
+2024.11.27 01:37:32 INFO  time: compiled root-test in 0.5s
+2024.11.27 01:37:32 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:37:33 INFO  compiling root
+2024.11.27 01:37:33 INFO  time: compiled root in 33ms
+2024.11.27 01:37:33 INFO  compiling root-test
+2024.11.27 01:37:33 INFO  time: compiled root-test in 4ms
+Nov 27, 2024 1:37:33 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.11.27 01:37:33 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:37:33 INFO  compiling root
+2024.11.27 01:37:33 INFO  time: compiled root in 7ms
+2024.11.27 01:37:33 INFO  compiling root-test
+2024.11.27 01:37:33 INFO  time: compiled root-test in 14ms
+2024.11.27 01:38:03 INFO  Processing buildTarget/compile
+2024.11.27 01:38:34 INFO  Processing buildTarget/compile
+2024.11.27 01:38:34 INFO  compiling root
+2024.11.27 01:38:34 INFO  time: compiled root in 20ms
+2024.11.27 01:38:34 INFO  compiling root-test
+2024.11.27 01:38:34 INFO  time: compiled root-test in 10ms
+2024.11.27 01:38:34 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:38:34 INFO  compiling root
+2024.11.27 01:38:34 INFO  time: compiled root in 31ms
+2024.11.27 01:38:34 INFO  compiling root-test
+2024.11.27 01:38:34 INFO  time: compiled root-test in 7ms
+2024.11.27 01:38:34 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:38:34 INFO  compiling root
+2024.11.27 01:38:34 INFO  time: compiled root in 20ms
+2024.11.27 01:38:34 INFO  compiling root-test
+2024.11.27 01:38:34 INFO  time: compiled root-test in 22ms
+2024.11.27 01:39:03 INFO  Processing buildTarget/compile
+2024.11.27 01:39:06 INFO  Processing buildTarget/compile
+2024.11.27 01:39:06 INFO  compiling root
+2024.11.27 01:39:06 INFO  time: compiled root in 15ms
+2024.11.27 01:39:06 INFO  compiling root-test
+2024.11.27 01:39:06 INFO  time: compiled root-test in 22ms
+2024.11.27 01:39:06 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:39:06 INFO  compiling root
+2024.11.27 01:39:06 INFO  time: compiled root in 37ms
+2024.11.27 01:39:06 INFO  compiling root-test
+2024.11.27 01:39:06 INFO  time: compiled root-test in 14ms
+2024.11.27 01:39:06 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:39:06 INFO  compiling root
+2024.11.27 01:39:06 INFO  time: compiled root in 10ms
+2024.11.27 01:39:06 INFO  compiling root-test
+2024.11.27 01:39:06 INFO  time: compiled root-test in 8ms
+2024.11.27 01:39:32 INFO  Processing buildTarget/compile
+2024.11.27 01:39:32 INFO  compiling root
+2024.11.27 01:39:32 INFO  time: compiled root in 17ms
+2024.11.27 01:39:32 INFO  compiling root-test
+2024.11.27 01:39:32 INFO  time: compiled root-test in 2ms
+2024.11.27 01:39:32 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:39:32 INFO  compiling root
+2024.11.27 01:39:32 INFO  time: compiled root in 4ms
+2024.11.27 01:39:32 INFO  compiling root-test
+2024.11.27 01:39:32 INFO  time: compiled root-test in 10ms
+2024.11.27 01:39:32 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:39:32 INFO  compiling root
+2024.11.27 01:39:32 INFO  time: compiled root in 4ms
+2024.11.27 01:39:32 INFO  compiling root-test
+2024.11.27 01:39:32 INFO  time: compiled root-test in 3ms
+2024.11.27 01:39:34 INFO  Processing buildTarget/compile
+2024.11.27 01:39:34 INFO  compiling root
+2024.11.27 01:39:34 INFO  time: compiled root in 8ms
+2024.11.27 01:39:34 INFO  compiling root-test
+2024.11.27 01:39:34 INFO  time: compiled root-test in 4ms
+2024.11.27 01:39:34 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:39:34 INFO  compiling root
+2024.11.27 01:39:34 INFO  time: compiled root in 7ms
+2024.11.27 01:39:34 INFO  compiling root-test
+2024.11.27 01:39:34 INFO  time: compiled root-test in 1ms
+2024.11.27 01:39:34 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:39:34 INFO  compiling root
+2024.11.27 01:39:34 INFO  time: compiled root in 4ms
+2024.11.27 01:39:34 INFO  compiling root-test
+2024.11.27 01:39:34 INFO  time: compiled root-test in 9ms
+2024.11.27 01:39:35 INFO  Processing buildTarget/compile
+2024.11.27 01:39:35 INFO  compiling root
+2024.11.27 01:39:35 INFO  time: compiled root in 6ms
+2024.11.27 01:39:35 INFO  compiling root-test
+2024.11.27 01:39:35 INFO  compiling 1 Scala source to /home/syedowais/ChipSimX/target/scala-2.13/test-classes ...
+2024.11.27 01:39:37 WARN  /home/syedowais/ChipSimX/src/test/scala/controltest.scala:6:27: type FreeSpec in package scalatest is deprecated (since 3.1.0): The org.scalatest.FreeSpec trait has been moved and renamed. Please use org.scalatest.freespec.AnyFreeSpec instead. This can be rewritten automatically with autofix: https://github.com/scalatest/autofix/tree/master/3.1.x
+2024.11.27 01:39:37 WARN  class controltest extends FreeSpec with ChiselScalatestTester{
+2024.11.27 01:39:37 WARN  ^
+2024.11.27 01:39:37 WARN  one warning found
+2024.11.27 01:39:37 INFO  done compiling
+2024.11.27 01:39:37 INFO  time: compiled root-test in 1.3s
+2024.11.27 01:39:37 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:39:37 INFO  compiling root
+2024.11.27 01:39:37 INFO  time: compiled root in 16ms
+2024.11.27 01:39:37 INFO  compiling root-test
+2024.11.27 01:39:37 INFO  time: compiled root-test in 24ms
+2024.11.27 01:39:37 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:39:37 INFO  compiling root
+2024.11.27 01:39:37 INFO  time: compiled root in 7ms
+2024.11.27 01:39:37 INFO  compiling root-test
+2024.11.27 01:39:37 INFO  time: compiled root-test in 6ms
+2024.11.27 01:40:03 INFO  Processing buildTarget/compile
+2024.11.27 01:40:18 INFO  Processing buildTarget/compile
+2024.11.27 01:40:18 INFO  compiling root
+2024.11.27 01:40:18 INFO  time: compiled root in 10ms
+2024.11.27 01:40:18 INFO  compiling root-test
+2024.11.27 01:40:18 INFO  time: compiled root-test in 16ms
+2024.11.27 01:40:18 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:40:18 INFO  compiling root
+2024.11.27 01:40:18 INFO  time: compiled root in 21ms
+2024.11.27 01:40:18 INFO  compiling root-test
+2024.11.27 01:40:18 INFO  time: compiled root-test in 27ms
+2024.11.27 01:40:18 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:40:18 INFO  compiling root
+2024.11.27 01:40:18 INFO  time: compiled root in 23ms
+2024.11.27 01:40:18 INFO  compiling root-test
+2024.11.27 01:40:18 INFO  time: compiled root-test in 24ms
+2024.11.27 01:40:18 INFO  Processing buildTarget/compile
+2024.11.27 01:40:18 INFO  compiling root
+2024.11.27 01:40:18 INFO  time: compiled root in 29ms
+2024.11.27 01:40:18 INFO  compiling root-test
+2024.11.27 01:40:18 INFO  time: compiled root-test in 23ms
+2024.11.27 01:40:19 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:40:19 INFO  compiling root
+2024.11.27 01:40:19 INFO  time: compiled root in 11ms
+2024.11.27 01:40:19 INFO  compiling root-test
+2024.11.27 01:40:19 INFO  time: compiled root-test in 19ms
+2024.11.27 01:40:19 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:40:19 INFO  compiling root
+2024.11.27 01:40:19 INFO  time: compiled root in 12ms
+2024.11.27 01:40:19 INFO  compiling root-test
+2024.11.27 01:40:19 INFO  time: compiled root-test in 16ms
+2024.11.27 01:41:03 INFO  Processing buildTarget/compile
+2024.11.27 01:41:03 INFO  Processing buildTarget/compile
+2024.11.27 01:41:03 INFO  compiling root
+2024.11.27 01:41:03 INFO  time: compiled root in 3ms
+2024.11.27 01:41:03 INFO  compiling root-test
+2024.11.27 01:41:03 INFO  time: compiled root-test in 13ms
+2024.11.27 01:41:03 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:41:04 INFO  compiling root
+2024.11.27 01:41:04 INFO  time: compiled root in 25ms
+2024.11.27 01:41:04 INFO  compiling root-test
+2024.11.27 01:41:04 INFO  time: compiled root-test in 21ms
+2024.11.27 01:41:04 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:41:04 INFO  compiling root
+2024.11.27 01:41:04 INFO  time: compiled root in 16ms
+2024.11.27 01:41:04 INFO  compiling root-test
+2024.11.27 01:41:04 INFO  time: compiled root-test in 11ms
+Nov 27, 2024 1:41:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 200
+2024.11.27 01:41:10 INFO  Processing buildTarget/compile
+2024.11.27 01:41:10 INFO  compiling root
+2024.11.27 01:41:10 INFO  time: compiled root in 8ms
+2024.11.27 01:41:10 INFO  compiling root-test
+2024.11.27 01:41:10 INFO  time: compiled root-test in 13ms
+2024.11.27 01:41:10 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:41:10 INFO  compiling root
+2024.11.27 01:41:10 INFO  time: compiled root in 21ms
+2024.11.27 01:41:10 INFO  compiling root-test
+2024.11.27 01:41:10 INFO  time: compiled root-test in 12ms
+Nov 27, 2024 1:41:10 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.11.27 01:41:10 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:41:10 INFO  compiling root
+2024.11.27 01:41:10 INFO  time: compiled root in 12ms
+2024.11.27 01:41:10 INFO  compiling root-test
+2024.11.27 01:41:10 INFO  time: compiled root-test in 15ms
+2024.11.27 01:42:03 INFO  Processing buildTarget/compile
+2024.11.27 01:43:03 INFO  Processing buildTarget/compile
+2024.11.27 01:44:03 INFO  Processing buildTarget/compile
+2024.11.27 01:45:03 INFO  Processing buildTarget/compile
+2024.11.27 01:46:03 INFO  Processing buildTarget/compile
+2024.11.27 01:47:03 INFO  Processing buildTarget/compile
+2024.11.27 01:47:58 INFO  Processing buildTarget/compile
+2024.11.27 01:47:58 INFO  compiling root
+2024.11.27 01:47:58 INFO  time: compiled root in 17ms
+2024.11.27 01:47:58 INFO  compiling root-test
+2024.11.27 01:47:58 INFO  time: compiled root-test in 8ms
+2024.11.27 01:47:58 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:47:58 INFO  compiling root
+2024.11.27 01:47:58 INFO  time: compiled root in 13ms
+2024.11.27 01:47:58 INFO  compiling root-test
+2024.11.27 01:47:58 INFO  time: compiled root-test in 11ms
+2024.11.27 01:47:58 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:47:58 INFO  compiling root
+2024.11.27 01:47:58 INFO  time: compiled root in 12ms
+2024.11.27 01:47:58 INFO  compiling root-test
+2024.11.27 01:47:58 INFO  time: compiled root-test in 15ms
+2024.11.27 01:47:58 INFO  Processing buildTarget/compile
+2024.11.27 01:47:58 INFO  compiling root
+2024.11.27 01:47:58 INFO  time: compiled root in 6ms
+2024.11.27 01:47:58 INFO  compiling root-test
+2024.11.27 01:47:58 INFO  time: compiled root-test in 10ms
+2024.11.27 01:47:58 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:47:58 INFO  compiling root
+2024.11.27 01:47:58 INFO  time: compiled root in 14ms
+2024.11.27 01:47:58 INFO  compiling root-test
+2024.11.27 01:47:58 INFO  time: compiled root-test in 10ms
+2024.11.27 01:47:58 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:47:58 INFO  compiling root
+2024.11.27 01:47:58 INFO  time: compiled root in 9ms
+2024.11.27 01:47:58 INFO  compiling root-test
+2024.11.27 01:47:58 INFO  time: compiled root-test in 16ms
+2024.11.27 01:48:03 INFO  Processing buildTarget/compile
+2024.11.27 01:48:18 INFO  Processing buildTarget/compile
+2024.11.27 01:48:18 INFO  compiling root
+2024.11.27 01:48:18 INFO  time: compiled root in 4ms
+2024.11.27 01:48:18 INFO  compiling root-test
+2024.11.27 01:48:18 INFO  time: compiled root-test in 25ms
+2024.11.27 01:48:18 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:48:18 INFO  compiling root
+2024.11.27 01:48:18 INFO  time: compiled root in 11ms
+2024.11.27 01:48:18 INFO  compiling root-test
+2024.11.27 01:48:18 INFO  time: compiled root-test in 13ms
+2024.11.27 01:48:18 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:48:18 INFO  compiling root
+2024.11.27 01:48:18 INFO  time: compiled root in 8ms
+2024.11.27 01:48:18 INFO  compiling root-test
+2024.11.27 01:48:18 INFO  time: compiled root-test in 14ms
+2024.11.27 01:48:27 INFO  Processing buildTarget/compile
+2024.11.27 01:48:27 INFO  compiling root
+2024.11.27 01:48:27 INFO  time: compiled root in 8ms
+2024.11.27 01:48:27 INFO  compiling root-test
+2024.11.27 01:48:27 INFO  time: compiled root-test in 24ms
+2024.11.27 01:48:27 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:48:27 INFO  compiling root
+2024.11.27 01:48:27 INFO  time: compiled root in 15ms
+2024.11.27 01:48:27 INFO  compiling root-test
+2024.11.27 01:48:27 INFO  time: compiled root-test in 20ms
+2024.11.27 01:48:27 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:48:27 INFO  compiling root
+2024.11.27 01:48:27 INFO  time: compiled root in 20ms
+2024.11.27 01:48:27 INFO  compiling root-test
+2024.11.27 01:48:27 INFO  time: compiled root-test in 22ms
+Nov 27, 2024 1:48:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 280
+Nov 27, 2024 1:48:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 281
+2024.11.27 01:49:03 INFO  Processing buildTarget/compile
+2024.11.27 01:50:03 INFO  Processing buildTarget/compile
+2024.11.27 01:51:03 INFO  Processing buildTarget/compile
+2024.11.27 01:52:03 INFO  Processing buildTarget/compile
+2024.11.27 01:53:03 INFO  Processing buildTarget/compile
+2024.11.27 01:54:03 INFO  Processing buildTarget/compile
+2024.11.27 01:54:19 INFO  Processing buildTarget/compile
+2024.11.27 01:54:19 INFO  compiling root
+2024.11.27 01:54:19 INFO  time: compiled root in 6ms
+2024.11.27 01:54:19 INFO  compiling root-test
+2024.11.27 01:54:19 INFO  time: compiled root-test in 12ms
+2024.11.27 01:54:19 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:54:19 INFO  compiling root
+2024.11.27 01:54:19 INFO  time: compiled root in 16ms
+2024.11.27 01:54:19 INFO  compiling root-test
+2024.11.27 01:54:19 INFO  time: compiled root-test in 12ms
+2024.11.27 01:54:19 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:54:19 INFO  compiling root
+2024.11.27 01:54:19 INFO  time: compiled root in 4ms
+2024.11.27 01:54:19 INFO  compiling root-test
+2024.11.27 01:54:19 INFO  time: compiled root-test in 6ms
+2024.11.27 01:54:19 INFO  Processing buildTarget/compile
+2024.11.27 01:54:19 INFO  compiling root
+2024.11.27 01:54:19 INFO  time: compiled root in 6ms
+2024.11.27 01:54:19 INFO  compiling root-test
+2024.11.27 01:54:19 INFO  time: compiled root-test in 7ms
+2024.11.27 01:54:19 INFO  Processing buildTarget/scalaMainClasses
+2024.11.27 01:54:19 INFO  compiling root
+2024.11.27 01:54:19 INFO  time: compiled root in 5ms
+2024.11.27 01:54:19 INFO  compiling root-test
+2024.11.27 01:54:19 INFO  time: compiled root-test in 5ms
+2024.11.27 01:54:19 INFO  Processing buildTarget/scalaTestClasses
+2024.11.27 01:54:19 INFO  compiling root
+2024.11.27 01:54:19 INFO  time: compiled root in 8ms
+2024.11.27 01:54:19 INFO  compiling root-test
+2024.11.27 01:54:19 INFO  time: compiled root-test in 10ms

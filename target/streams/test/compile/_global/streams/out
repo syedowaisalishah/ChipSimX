@@ -1,0 +1,4 @@
+[warn] /home/syedowais/ChipSimX/src/test/scala/controltest.scala:6:27: type FreeSpec in package scalatest is deprecated (since 3.1.0): The org.scalatest.FreeSpec trait has been moved and renamed. Please use org.scalatest.freespec.AnyFreeSpec instead. This can be rewritten automatically with autofix: https://github.com/scalatest/autofix/tree/master/3.1.x
+[warn] class controltest extends FreeSpec with ChiselScalatestTester{
+[warn]                           ^
+[warn] one warning found
